@@ -1,0 +1,41 @@
+.article{
+    background-color: #ffffff;
+    margin: 20px 0;
+    padding: 20px 0;
+}
+.avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 0 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.wordsInformation{
+    display: inline-block;
+    width: 450px;
+    height: 100px;
+    vertical-align: top;
+}
+.name{
+    width: 450px;
+    display: inline-block;
+}
+.time{
+    color: #cacaca;
+    font-size: 20px;
+    display: inline-block;
+}
+.title{
+    font-size: 36px;
+    margin: 0px 20px 20px 20px;
+}
+.content{
+    color: #070707;
+    margin: 0 auto;
+    font-size: 31px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    width: 90%;
+    height: 60px;
+}

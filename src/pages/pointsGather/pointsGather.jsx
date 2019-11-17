@@ -6,7 +6,7 @@ import { AtGrid } from "taro-ui"
 export default class Pointsgather extends Component {
 
   config = {
-    navigationBarTitleText: '首页'
+    navigationBarTitleText: '其他'
   }
 
   componentWillMount () { }
@@ -19,28 +19,40 @@ export default class Pointsgather extends Component {
 
   componentDidHide () { }
   onClick=(item, index) =>{
-    switch(index){
-      case 0: Taro.navigateTo({
-                url: '../importantPeople/importantPeople'
-              })
-      case 1: Taro.navigateTo({
-                url: '../famousArticles/famousArticles'
-              })
-      case 2: Taro.navigateTo({
-                url: '../historyVideos/historyVideos'
-              })
-      case 3: Taro.navigateTo({
-                url: '../recommendBooks/recommendBooks'
-              })
-      case 4: Taro.navigateTo({
-                url: '../historicalDataWeb/historicalDataWeb'
-              })
-      case 5: Taro.navigateTo({
-                url: '../scenicSpots/scenicSpots'
-              })
-      case 6: Taro.navigateTo({
-                url: '../difficulties/difficulties'
-              })
+    if(index == 0){
+      Taro.navigateTo({
+        url:'../importantPeople/importantPeople'
+      })
+    }
+    else if(index == 1){
+      Taro.navigateTo({
+        url: '../famousArticles/famousArticles'
+      })
+    }
+    else if(index == 2){
+      Taro.navigateTo({
+        url: '../historyVideos/historyVideos'
+      })
+    }
+    else if(index == 3){
+      Taro.navigateTo({
+        url: '../recommendBooks/recommendBooks'
+      })
+    }
+    else if(index == 4){
+      Taro.navigateTo({
+        url: '../historicalDataWeb/historicalDataWeb'
+      })
+    }
+    else if(index == 5){
+      Taro.navigateTo({
+        url: '../scenicSpots/scenicSpots'
+      })
+    }
+    else if(index == 6){
+      Taro.navigateTo({
+        url: '../difficulties/difficulties'
+      })
     }
   }
   render () {

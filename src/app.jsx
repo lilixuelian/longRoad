@@ -1,14 +1,8 @@
 import Taro, { Component } from '@tarojs/taro'
 import Index from './pages/index'
-<<<<<<< HEAD
 import './app.scss'
 import 'taro-ui/dist/style/index.scss'
 
-=======
-
-import './app.scss'
-import 'taro-ui/dist/style/index.scss' // 全局引入一次即可
->>>>>>> ee431e4b71e611704c55994d0bf38a1a28fd4ceb
 
 // 如果需要在 h5 环境中开启 React Devtools
 // 取消以下注释：
@@ -21,7 +15,6 @@ class App extends Component {
   config = {
     pages: [
       'pages/index/index',
-<<<<<<< HEAD
       'pages/timeLine/timeLine',
       'pages/pointsGather/pointsGather',
       'pages/historyVideos/historyVideos',
@@ -37,47 +30,27 @@ class App extends Component {
       navigationBarBackgroundColor: '#fff',
       navigationBarTitleText: 'WeChat',
       navigationBarTextStyle: 'black'
-    }
-=======
-      'pages/Desc1/Desc1',
-      'pages/Desc2/Desc2',
-      'pages/Desc3/Desc3',
-      'pages/Desc4/Desc4',
-      'pages/Desc5/Desc5',
-      'pages/Desc6/Desc6',
-      'pages/Desc7/Desc7',
-      'pages/Desc8/Desc8',
-      'pages/Desc9/Desc9',
-      'pages/Desc10/Desc10',
-      'pages/Desc11/Desc11',
-      'pages/Desc12/Desc12',
-
-    ],
-    window: {
-      backgroundTextStyle: 'light',
-      navigationBarBackgroundColor: '#f00',
-      navigationBarTitleText: 'WeChat',
-      navigationBarTextStyle: 'black',
-      backgroundColor:'#d40a0a',
-      enablePullDownRefresh:true
     },
-    tabBar:{
-      color:'#888',
-      selectedColor:'#000',
-      backgroundColor:'#ff0000',
-      list:[
-      {
-        pagePath: 'pages/index/index',
-        text: '首页'
-      },
-      {
-        pagePath:'pages/index/index',
-        text:'测试'
-      }
-    ]
+    tabBar: {
+      list: [
+        {
+          pagePath: 'pages/index/index',
+          iconPath: './pictures/tabBar/event.png',
+          text: '大事记',
+          selectedIconPath: './pictures/tabBar/eventSelected.png'
+        },
+        {
+          pagePath: 'pages/pointsGather/pointsGather',
+          text: '其他',
+          iconPath: './pictures/tabBar/others.png',
+          selectedIconPath: './pictures/tabBar/othersSelected.png'
+        }
+      ],
+      color: '#CACACA',
+      selectedColor: '#7273F7',
+      backgroundColor: '#ffffff',
+      borderStyle: 'white'
     }
-
->>>>>>> ee431e4b71e611704c55994d0bf38a1a28fd4ceb
   }
 
   componentDidMount () {}

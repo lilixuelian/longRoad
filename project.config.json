@@ -1,13 +1,83 @@
 {
-  "miniprogramRoot": "./dist",
-  "projectname": "changzheng",
-  "description": "",
-  "appid": "touristappid",
-  "setting": {
-    "urlCheck": true,
-    "es6": false,
-    "postcss": false,
-    "minified": false
-  },
-  "compileType": "miniprogram"
+	"miniprogramRoot": "dist/",
+	"projectname": "%E9%95%BF%E5%BE%81%E6%9C%80%E6%96%B0",
+	"description": "",
+	"appid": "wx9a439e1242e58560",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": false,
+		"minified": false
+	},
+	"compileType": "miniprogram",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": 0,
+					"name": "卡片组件",
+					"pathName": "components/Card/Card",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "影视作品推荐",
+					"pathName": "pages/recommendBooks/recommendBooks",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "点集",
+					"pathName": "pages/pointsGather/pointsGather",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "景点推荐",
+					"pathName": "pages/scenicSpots/scenicSpots",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "人物大事记",
+					"pathName": "pages/importantPeople/importantPeople",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "著名文章",
+					"pathName": "pages/famousArticles/famousArticles",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
 }
