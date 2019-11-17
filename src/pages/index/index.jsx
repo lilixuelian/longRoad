@@ -30,7 +30,7 @@ export default class Index extends Component {
             }}
             extraText='详细信息'
             arrow='right' 
-            onClick={this.turnto.bind(this, '../Desc1/Desc1')}
+            onClick={this.turnto.bind(this, '../Desc/Desc1/Desc1')}
             />
           <AtListItem
             title='强渡乌江'
@@ -43,7 +43,7 @@ export default class Index extends Component {
             }}
             extraText='详细信息'
             arrow='right' 
-            onClick={this.turnto.bind(this, '../Desc2/Desc2')}
+            onClick={this.turnto.bind(this, '../Desc/Desc2/Desc2')}
             />
           <AtListItem
             title='遵义会议'
@@ -56,7 +56,7 @@ export default class Index extends Component {
             }}
             extraText='详细信息'
             arrow='right' 
-            onClick={this.turnto.bind(this, '../Desc3/Desc3')}
+            onClick={this.turnto.bind(this, '../Desc/Desc3/Desc3')}
             />
           <AtListItem
             title='四渡赤水'
@@ -69,7 +69,7 @@ export default class Index extends Component {
             }}
             extraText='详细信息'
             arrow='right' 
-            onClick={this.turnto.bind(this, '../Desc4/Desc4')}
+            onClick={this.turnto.bind(this, '../Desc/Desc4/Desc4')}
             />
           <AtListItem
             title='巧渡金沙江'
@@ -81,7 +81,7 @@ export default class Index extends Component {
             }}
             extraText='详细信息'
             arrow='right' 
-            onClick={this.turnto.bind(this, '../Desc5/Desc5')}
+            onClick={this.turnto.bind(this, '../Desc/Desc5/Desc5')}
             />
           <AtListItem
             title='强渡大渡河'
@@ -93,7 +93,7 @@ export default class Index extends Component {
             }}
             extraText='详细信息'
             arrow='right' 
-            onClick={this.turnto.bind(this, '../Desc6/Desc6')}
+            onClick={this.turnto.bind(this, '../Desc/Desc6/Desc6')}
             />
             <AtListItem
             title='飞夺泸定桥'
@@ -105,7 +105,7 @@ export default class Index extends Component {
             }}
             extraText='详细信息'
             arrow='right' 
-            onClick={this.turnto.bind(this, '../Desc7/Desc7')}
+            onClick={this.turnto.bind(this, '../Desc/Desc7/Desc7')}
             />
             <AtListItem
             title='翻雪山'
@@ -117,7 +117,7 @@ export default class Index extends Component {
             }}
             extraText='详细信息'
             arrow='right' 
-            onClick={this.turnto.bind(this, '../Desc8/Desc8')}
+            onClick={this.turnto.bind(this, '../Desc/Desc8/Desc8')}
             />
             <AtListItem
             title='过草地'
@@ -129,7 +129,7 @@ export default class Index extends Component {
             }}
             extraText='详细信息'
             arrow='right' 
-            onClick={this.turnto.bind(this, '../Desc9/Desc9')}
+            onClick={this.turnto.bind(this, '../Desc/Desc9/Desc9')}
             />
             <AtListItem
             title='激战腊子口'
@@ -141,7 +141,7 @@ export default class Index extends Component {
             }}
             extraText='详细信息'
             arrow='right' 
-            onClick={this.turnto.bind(this, '../Desc10/Desc10')}
+            onClick={this.turnto.bind(this, '../Desc/Desc10/Desc10')}
             />
             <AtListItem
             title='吴起会师'
@@ -153,7 +153,7 @@ export default class Index extends Component {
               value: 'map-pin',
             }}
             extraText='详细信息'
-            arrow='right' onClick={this.turnto.bind(this, '../Desc11/Desc11')}
+            arrow='right' onClick={this.turnto.bind(this, '../Desc/Desc11/Desc11')}
             />
             <AtListItem
             title='会宁会师'
@@ -165,7 +165,7 @@ export default class Index extends Component {
               value: 'map-pin',
             }}
             extraText='详细信息'
-            arrow='right' onClick={this.turnto.bind(this, '../Desc12/Desc12')}
+            arrow='right' onClick={this.turnto.bind(this, '../Desc/Desc12/Desc12')}
             />
         </AtList>
       </view>
