@@ -1,14 +1,8 @@
 import Taro, { Component } from '@tarojs/taro'
 import Index from './pages/index'
-<<<<<<< HEAD
-import './app.scss'
-import 'taro-ui/dist/style/index.scss'
-
-=======
 
 import './app.scss'
 import 'taro-ui/dist/style/index.scss' // 全局引入一次即可
->>>>>>> 69e6a9b6b2c93ac5bd68ff0d17d07a04c668ae28
 
 // 如果需要在 h5 环境中开启 React Devtools
 // 取消以下注释：
