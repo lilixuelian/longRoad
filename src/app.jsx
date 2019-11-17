@@ -1,8 +1,14 @@
 import Taro, { Component } from '@tarojs/taro'
 import Index from './pages/index'
+<<<<<<< HEAD
 import './app.scss'
 import 'taro-ui/dist/style/index.scss'
 
+=======
+
+import './app.scss'
+import 'taro-ui/dist/style/index.scss' // 全局引入一次即可
+>>>>>>> 69e6a9b6b2c93ac5bd68ff0d17d07a04c668ae28
 
 // 如果需要在 h5 环境中开启 React Devtools
 // 取消以下注释：
@@ -23,7 +29,19 @@ class App extends Component {
       'pages/scenicSpots/scenicSpots',
       'pages/famousArticles/famousArticles',
       'pages/difficulties/difficulties',
-      'pages/historicalDataWeb/historicalDataWeb'
+      'pages/historicalDataWeb/historicalDataWeb',
+      'pages/Desc/Desc1/Desc1',
+      'pages/Desc/Desc2/Desc2',
+      'pages/Desc/Desc3/Desc3',
+      'pages/Desc/Desc4/Desc4',
+      'pages/Desc/Desc5/Desc5',
+      'pages/Desc/Desc6/Desc6',
+      'pages/Desc/Desc7/Desc7',
+      'pages/Desc/Desc8/Desc8',
+      'pages/Desc/Desc9/Desc9',
+      'pages/Desc/Desc10/Desc10',
+      'pages/Desc/Desc11/Desc11',
+      'pages/Desc/Desc12/Desc12',
     ],
     window: {
       backgroundTextStyle: 'light',

@@ -36,6 +36,7 @@
 			"current": -1,
 			"list": [
 				{
+<<<<<<< HEAD
 					"id": 0,
 					"name": "卡片组件",
 					"pathName": "components/Card/Card",
@@ -75,6 +76,11 @@
 					"name": "著名文章",
 					"pathName": "pages/famousArticles/famousArticles",
 					"query": "",
+=======
+					"id": -1,
+					"name": "点集",
+					"pathName": "pages/pointsGather/pointsGather",
+>>>>>>> 69e6a9b6b2c93ac5bd68ff0d17d07a04c668ae28
 					"scene": null
 				}
 			]
