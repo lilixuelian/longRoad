@@ -26,12 +26,11 @@ export default class Timeline extends Component {
         <AtTimeline 
           items={[
             { title: '刷牙洗脸' }, 
-            { title: '吃早餐', color: 'green' }, 
-            { title: '上班', color: 'red' }, 
-            { title: '睡觉adfadfa', color: 'yellow' }
+            { title: '吃早餐', color: 'green' }
           ]}
         >
 </AtTimeline>
+<View>chogntuchongtu</View>
       </View>
     )
   }
