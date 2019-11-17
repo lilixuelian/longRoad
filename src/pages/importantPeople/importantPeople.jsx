@@ -1,11 +1,12 @@
 import Taro, { Component } from '@tarojs/taro'
-import { View, Text } from '@tarojs/components'
+import { View} from '@tarojs/components'
 import './importantPeople.scss'
+import People from '../../components/People/People'
 
 export default class Importantpeople extends Component {
 
   config = {
-    navigationBarTitleText: '首页'
+    navigationBarTitleText: '人物大事记'
   }
 
   componentWillMount () { }
@@ -21,7 +22,34 @@ export default class Importantpeople extends Component {
   render () {
     return (
       <View className='importantPeople'>
-        <Text>人物大事记</Text>
+        <People 
+          path='https://img12.360buyimg.com/jdphoto/s72x72_jfs/t6160/14/2008729947/2754/7d512a86/595c3aeeNa89ddf71.png'
+          name='毛泽东'
+        />
+        <People 
+          path='https://img12.360buyimg.com/jdphoto/s72x72_jfs/t6160/14/2008729947/2754/7d512a86/595c3aeeNa89ddf71.png'
+          name='周恩来'
+        />
+        <People 
+          path='https://img12.360buyimg.com/jdphoto/s72x72_jfs/t6160/14/2008729947/2754/7d512a86/595c3aeeNa89ddf71.png'
+          name='毛泽东'
+        />
+        <People 
+          path='https://img12.360buyimg.com/jdphoto/s72x72_jfs/t6160/14/2008729947/2754/7d512a86/595c3aeeNa89ddf71.png'
+          name='周恩来'
+        />
+        <People 
+          path='https://img12.360buyimg.com/jdphoto/s72x72_jfs/t6160/14/2008729947/2754/7d512a86/595c3aeeNa89ddf71.png'
+          name='毛泽东'
+        />
+        <People 
+          path='https://img12.360buyimg.com/jdphoto/s72x72_jfs/t6160/14/2008729947/2754/7d512a86/595c3aeeNa89ddf71.png'
+          name='周恩来'
+        />
+        <People 
+          path='https://img12.360buyimg.com/jdphoto/s72x72_jfs/t6160/14/2008729947/2754/7d512a86/595c3aeeNa89ddf71.png'
+          name='毛泽东'
+        />
       </View>
     )
   }

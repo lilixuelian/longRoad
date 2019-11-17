@@ -1,8 +1,14 @@
 import Taro, { Component } from '@tarojs/taro'
 import Index from './pages/index'
+<<<<<<< HEAD
+import './app.scss'
+import 'taro-ui/dist/style/index.scss'
+
+=======
 
 import './app.scss'
 import 'taro-ui/dist/style/index.scss' // 全局引入一次即可
+>>>>>>> 69e6a9b6b2c93ac5bd68ff0d17d07a04c668ae28
 
 // 如果需要在 h5 环境中开启 React Devtools
 // 取消以下注释：
@@ -43,26 +49,26 @@ class App extends Component {
       navigationBarTitleText: 'WeChat',
       navigationBarTextStyle: 'black'
     },
-    tabBar:{
-      color:'#888',
-      selectedColor:'#000',
-      backgroundColor:'#900a0a',
-      list:[
-      {
-        pagePath: 'pages/index/index',
-        text: '长征',
-        iconPath: './images/changzhengno.png',
-        selectedIconPath: './images/changzheng.png'
-      },
-      {
-        pagePath:'pages/pointsGather/pointsGather',
-        text:'首页',
-        iconPath: './images/homeno.png',
-        selectedIconPath: './images/home.png'
-      }
-    ]
+    tabBar: {
+      list: [
+        {
+          pagePath: 'pages/index/index',
+          iconPath: './pictures/tabBar/event.png',
+          text: '大事记',
+          selectedIconPath: './pictures/tabBar/eventSelected.png'
+        },
+        {
+          pagePath: 'pages/pointsGather/pointsGather',
+          text: '其他',
+          iconPath: './pictures/tabBar/others.png',
+          selectedIconPath: './pictures/tabBar/othersSelected.png'
+        }
+      ],
+      color: '#CACACA',
+      selectedColor: '#7273F7',
+      backgroundColor: '#ffffff',
+      borderStyle: 'white'
     }
-
   }
 
   componentDidMount () {}

@@ -5,7 +5,7 @@ import './historicalDataWeb.scss'
 export default class Historicaldataweb extends Component {
 
   config = {
-    navigationBarTitleText: '首页'
+    navigationBarTitleText: '史料搜集站'
   }
 
   componentWillMount () { }

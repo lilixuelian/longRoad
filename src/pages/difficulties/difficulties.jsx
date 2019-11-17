@@ -5,7 +5,7 @@ import './difficulties.scss'
 export default class Difficulties extends Component {
 
   config = {
-    navigationBarTitleText: '首页'
+    navigationBarTitleText: '长征路难'
   }
 
   componentWillMount () { }
