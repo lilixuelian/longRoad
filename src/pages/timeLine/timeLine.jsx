@@ -28,7 +28,7 @@ export default class Timeline extends Component {
             { title: '刷牙洗脸' }, 
             { title: '吃早餐', color: 'green' }, 
             { title: '上班', color: 'red' }, 
-            { title: '睡觉', color: 'yellow' }
+            { title: '睡觉adfadfa', color: 'yellow' }
           ]}
         >
 </AtTimeline>
