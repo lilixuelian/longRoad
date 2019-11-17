@@ -5,7 +5,9 @@ import './Desc12.scss'
 export default class Desc12 extends Component {
 
   config = {
-    navigationBarTitleText: '首页'
+    navigationBarTitleText: '会宁会师',
+    navigationBarBackgroundColor: '#f00',
+    navigationBarTextStyle: 'white'
   }
 
   componentWillMount () { }

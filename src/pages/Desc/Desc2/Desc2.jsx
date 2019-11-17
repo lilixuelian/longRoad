@@ -5,7 +5,9 @@ import './Desc2.scss'
 export default class Desc2 extends Component {
 
   config = {
-    navigationBarTitleText: '首页'
+    navigationBarTitleText: '强渡乌江',
+    navigationBarBackgroundColor: '#f00',
+    navigationBarTextStyle: 'white'
   }
 
   componentWillMount () { }

@@ -1,6 +1,7 @@
 import Taro, { Component } from '@tarojs/taro'
-import { View, Text } from '@tarojs/components'
+import { View, Text, Textarea } from '@tarojs/components'
 import './Desc1.scss'
+import '../Desc.scss'
 
 export default class Desc1 extends Component {
 
@@ -10,20 +11,19 @@ export default class Desc1 extends Component {
     navigationBarTextStyle: 'white'
   }
 
-  componentWillMount () { }
+  componentWillMount() { }
 
-  componentDidMount () { }
+  componentDidMount() { }
 
-  componentWillUnmount () { }
+  componentWillUnmount() { }
 
-  componentDidShow () { }
+  componentDidShow() { }
 
-  componentDidHide () { }
+  componentDidHide() { }
 
-  render () {
+  render() {
     return (
-      <View className='Desc1'>
-        <Text>Hello world!</Text>
+      <View className='Desc'>
       </View>
     )
   }

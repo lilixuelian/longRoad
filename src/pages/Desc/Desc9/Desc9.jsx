@@ -5,7 +5,9 @@ import './Desc9.scss'
 export default class Desc9 extends Component {
 
   config = {
-    navigationBarTitleText: '首页'
+    navigationBarTitleText: '过草地',
+    navigationBarBackgroundColor: '#f00',
+    navigationBarTextStyle: 'white'
   }
 
   componentWillMount () { }
