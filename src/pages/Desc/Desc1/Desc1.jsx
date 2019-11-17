@@ -33,7 +33,7 @@ export default class Desc1 extends Component {
 
   render() {
     return (
-      <View>
+      <View className='Desc1'>
         <View>　</View>
         <AtCard
           title='时间'
