@@ -5,9 +5,7 @@ import './Desc8.scss'
 export default class Desc8 extends Component {
 
   config = {
-    navigationBarTitleText: '翻雪山',
-    navigationBarBackgroundColor: '#f00',
-    navigationBarTextStyle: 'white'
+    navigationBarTitleText: '翻雪山'
   }
 
   componentWillMount () { }

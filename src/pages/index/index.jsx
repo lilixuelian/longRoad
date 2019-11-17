@@ -103,7 +103,7 @@ export default class Index extends Component {
             iconInfo={{
               size: 25,
               color: this.state.color1,
-              value: 'map-pin',
+              value: 'check-circle',
             }}
             extraText='详细信息'
             arrow='right'
@@ -116,7 +116,7 @@ export default class Index extends Component {
             iconInfo={{
               size: 25,
               color: this.state.color2,
-              value: 'map-pin',
+              value: 'check-circle',
             }}
             extraText='详细信息'
             arrow='right'
@@ -129,7 +129,7 @@ export default class Index extends Component {
             iconInfo={{
               size: 25,
               color: this.state.color3,
-              value: 'map-pin',
+              value: 'check-circle',
             }}
             extraText='详细信息'
             arrow='right'
@@ -142,7 +142,7 @@ export default class Index extends Component {
             iconInfo={{
               size: 25,
               color: this.state.color4,
-              value: 'map-pin',
+              value: 'check-circle',
             }}
             extraText='详细信息'
             arrow='right'
@@ -154,7 +154,7 @@ export default class Index extends Component {
             arrow='right' iconInfo={{
               size: 25,
               color: this.state.color5,
-              value: 'map-pin',
+              value: 'check-circle',
             }}
             extraText='详细信息'
             arrow='right'
@@ -166,7 +166,7 @@ export default class Index extends Component {
             arrow='right' iconInfo={{
               size: 25,
               color: this.state.color6,
-              value: 'map-pin',
+              value: 'check-circle',
             }}
             extraText='详细信息'
             arrow='right'
@@ -178,7 +178,7 @@ export default class Index extends Component {
             arrow='right' iconInfo={{
               size: 25,
               color: this.state.color7,
-              value: 'map-pin',
+              value: 'check-circle',
             }}
             extraText='详细信息'
             arrow='right'
@@ -190,7 +190,7 @@ export default class Index extends Component {
             arrow='right' iconInfo={{
               size: 25,
               color: this.state.color8,
-              value: 'map-pin',
+              value: 'check-circle',
             }}
             extraText='详细信息'
             arrow='right'
@@ -202,7 +202,7 @@ export default class Index extends Component {
             arrow='right' iconInfo={{
               size: 25,
               color: this.state.color9,
-              value: 'map-pin',
+              value: 'check-circle',
             }}
             extraText='详细信息'
             arrow='right'
@@ -215,7 +215,7 @@ export default class Index extends Component {
             iconInfo={{
               size: 25,
               color: this.state.color10,
-              value: 'map-pin',
+              value: 'check-circle',
             }}
             extraText='详细信息'
             arrow='right'
@@ -228,7 +228,7 @@ export default class Index extends Component {
             iconInfo={{
               size: 25,
               color: this.state.color11,
-              value: 'map-pin',
+              value: 'check-circle',
             }}
             extraText='详细信息'
             arrow='right' onClick={this.turnto.bind(this, '../Desc/Desc11/Desc11', 11)}
@@ -240,7 +240,7 @@ export default class Index extends Component {
             iconInfo={{
               size: 25,
               color: this.state.color12,
-              value: 'map-pin',
+              value: 'check-circle',
             }}
             extraText='详细信息'
             arrow='right' onClick={this.turnto.bind(this, '../Desc/Desc12/Desc12', 12)}

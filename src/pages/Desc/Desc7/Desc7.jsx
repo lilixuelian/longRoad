@@ -5,9 +5,7 @@ import './Desc7.scss'
 export default class Desc7 extends Component {
 
   config = {
-    navigationBarTitleText: '飞夺泸定桥',
-    navigationBarBackgroundColor: '#f00',
-    navigationBarTextStyle: 'white'
+    navigationBarTitleText: '飞夺泸定桥'
   }
 
   componentWillMount () { }

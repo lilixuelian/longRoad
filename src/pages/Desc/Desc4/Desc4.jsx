@@ -5,9 +5,7 @@ import './Desc4.scss'
 export default class Desc4 extends Component {
 
   config = {
-    navigationBarTitleText: '四渡赤水',
-    navigationBarBackgroundColor: '#f00',
-    navigationBarTextStyle: 'white'
+    navigationBarTitleText: '四渡赤水'
   }
 
   componentWillMount () { }
