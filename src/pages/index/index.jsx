@@ -94,7 +94,7 @@ export default class Index extends Component {
 
   render() {
     return (
-      <view className='main'>
+      <view className='index'>
         <AtList>
           <AtListItem
             title='突破四道封锁线'
