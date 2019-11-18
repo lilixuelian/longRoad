@@ -66,9 +66,9 @@ export default class Desc7 extends Component {
             左路军由王开湘、杨成武率领的红二师四团为前锋攻击前进。\n</View>
           <View> 　　1935年5月28日，红四团接到红一军团命令：“王开湘、杨成武：军委来电，限左路军于明天夺取泸定桥，你们要用最高的行军速度和坚决机动的手段，去完成这一光荣的任务。
             你们在此战斗中突破过去夺道州和五团夺鸭溪一天跑一百六十里的记录”。接令后红四团昼夜兼行240华里山路，于29日晨，出其不意地出现在泸定桥西岸并与敌军交火。\n</View>
-          </AtCard>
-          <View>　</View>
-          <AtCard
+        </AtCard>
+        <View>　</View>
+        <AtCard
           title='意义'
           thumb={sense}
         >
