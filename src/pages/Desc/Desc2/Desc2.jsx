@@ -62,7 +62,6 @@ export default class Desc2 extends Component {
           title='内容'
           thumb={content}
         >
-          <View> 　　\n</View>
           <One></One>
           <View> 　　1935年1月1日，中共中央在瓮安猴场作出了决定指出：“建立川黔边新苏区根据地。
             首先以遵义为中心的黔北地区，然后向川南发展，是目前最中心的任务”。

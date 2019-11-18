@@ -61,7 +61,6 @@ export default class Desc5 extends Component {
           title='内容'
           thumb={content}
         >
-          <View> 　　\n</View>
           <One></One>
           <View> 　　1933年9月至1934年夏，中央苏区红军进行第五次反“围剿”作战，由于中共中央领导人博古（秦邦宪）和共产国际派来的军事顾问李德，先是实行冒险主义的进攻战略，
             后又实行保守主义的防御战略，致使红军屡战失利，苏区日渐缩小。\n</View>

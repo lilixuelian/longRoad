@@ -62,7 +62,6 @@ export default class Desc3 extends Component {
           title='内容'
           thumb={content}
         >
-          <View> 　　\n</View>
           <One></One>
           <View> 　　中央政治局委员\n</View>
           <View>秦邦宪（1907年—1946年）又名博古，1926年留学苏联，中共临时中央负责人，长征开始时为中央“三人团”成员。\n</View>
