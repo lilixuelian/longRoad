@@ -150,7 +150,7 @@ export default class Index extends Component {
           />
           <AtListItem
             title='巧渡金沙江'
-            note='1935.5.9 金沙江'
+            note='1935.5.3~1935.5.9 金沙江'
             arrow='right' iconInfo={{
               size: 25,
               color: this.state.color5,
@@ -186,7 +186,7 @@ export default class Index extends Component {
           />
           <AtListItem
             title='翻雪山'
-            note='1935.6.21 四川夹金山'
+            note='1935.6.12~1935.7.8 四川夹金山'
             arrow='right' iconInfo={{
               size: 25,
               color: this.state.color8,

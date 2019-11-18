@@ -1,7 +1,8 @@
 import Taro, { Component } from '@tarojs/taro'
-import { View, Text } from '@tarojs/components'
+import { View } from '@tarojs/components'
 import { AtCard } from 'taro-ui'
 import './Desc1.scss'
+import '../Desc.scss'
 import place from '../../../pictures/iconphoto/place.png'
 import time from '../../../pictures/iconphoto/time.png'
 import content from '../../../pictures/iconphoto/content.png'
@@ -33,7 +34,7 @@ export default class Desc1 extends Component {
 
   render() {
     return (
-      <View className='Desc1'>
+      <View className='Desc'>
         <View>　</View>
         <AtCard
           title='时间'
