@@ -15,7 +15,6 @@ class App extends Component {
   config = {
     pages: [
       'pages/index/index',
-      'pages/timeLine/timeLine',
       'pages/pointsGather/pointsGather',
       'pages/historyVideos/historyVideos',
       'pages/recommendBooks/recommendBooks',
@@ -64,14 +63,6 @@ class App extends Component {
       borderStyle: 'white'
     }
   }
-
-  componentDidMount () {}
-
-  componentDidShow () {}
-
-  componentDidHide () {}
-
-  componentDidCatchError () {}
 
   // 在 App 类中的 render() 函数没有实际作用
   // 请勿修改此函数
