@@ -1,24 +1,16 @@
 import Taro, { Component } from '@tarojs/taro'
 import { View} from '@tarojs/components'
 import './recommendBooks.scss'
+// eslint-disable-next-line import/first
 import { AtTabs, AtTabsPane } from 'taro-ui'
 import Card from '../../components/Card/Card'
 
 export default class Recommendbooks extends Component {
 
+  // eslint-disable-next-line react/sort-comp
   config = {
     navigationBarTitleText: '推荐影视作品'
   }
-
-  componentWillMount () { }
-
-  componentDidMount () { }
-
-  componentWillUnmount () { }
-
-  componentDidShow () { }
-
-  componentDidHide () { }
 
   constructor () {
     super(...arguments)
