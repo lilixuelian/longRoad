@@ -170,12 +170,6 @@ export default class Recommendbooks extends Component {
               />
             </View>
           </AtTabsPane>
-          <AtTabsPane current={this.state.current} index={2}>
-            <View style='background-color: #F1F0F5;text-align: center;'>标签页三的内容</View>
-          </AtTabsPane>
-          <AtTabsPane current={this.state.current} index={3}>
-            <View style='background-color: #F1F0F5;text-align: center;'>标签页三s的内容</View>
-          </AtTabsPane>
           <AtTabsPane current={this.state.current} index={4}>
             <View style='background-color: #F1F0F5;text-align: center;'>
               <Card 
