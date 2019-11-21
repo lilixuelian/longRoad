@@ -3,9 +3,16 @@ import { View, Image } from '@tarojs/components';
 import './People.scss';
 
 class People extends Component {
+
+  turnto(){
+    Taro.navigateTo({
+      url:this.props.page
+    })
+  }
+
   render() {
     return (
-      <View className='people'>
+      <View className='people' onClick={this.turnto(this.props.page)}>
         <Image
           src={this.props.path}
         />
@@ -19,7 +26,8 @@ class People extends Component {
 
 People.defaultProps = {
   path: '',
-  name: ''
+  name: '',
+  page:''
 };
 
 export default People;
