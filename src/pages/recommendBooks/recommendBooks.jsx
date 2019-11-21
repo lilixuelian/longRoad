@@ -4,6 +4,7 @@ import './recommendBooks.scss'
 // eslint-disable-next-line import/first
 import { AtTabs, AtTabsPane } from 'taro-ui'
 import Card from '../../components/Card/Card'
+import CardZhai from '../../components/CardZhai/CardZhai'
 import CardLow from '../../components/CardLow/CardLow'
 
 export default class Recommendbooks extends Component {

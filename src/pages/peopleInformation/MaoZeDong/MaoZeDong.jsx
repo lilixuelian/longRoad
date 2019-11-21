@@ -1,8 +1,9 @@
 import Taro, { Component } from '@tarojs/taro'
 import { View } from '@tarojs/components'
-import { AtCard } from 'taro-ui'
-import './people1.scss'
+import './MaoZeDong.scss'
 import '../people.scss'
+import { AtCard } from 'taro-ui'
+
 import place from '../../../pictures/iconphoto/place.png'
 import time from '../../../pictures/iconphoto/time.png'
 import content from '../../../pictures/iconphoto/content.png'
@@ -12,11 +13,11 @@ import Three from '../../../components/Number/Three/Three'
 import Four from '../../../components/Number/Four/Four'
 import Five from '../../../components/Number/Five/Five'
 import Six from '../../../components/Number/Six/Six'
-// import Seven from '../../../components/Number/Seven/Seven'
-// import Eight from '../../../components/Number/Eight/Eight'
-// import Nine from '../../../components/Number/Nine/Nine'
+import Seven from '../../../components/Number/Seven/Seven'
+import Eight from '../../../components/Number/Eight/Eight'
+import Nine from '../../../components/Number/Nine/Nine'
 
-export default class Desc1 extends Component {
+export default class MaoZeDong extends Component {
 
 
   componentWillMount() { }
@@ -30,7 +31,7 @@ export default class Desc1 extends Component {
   componentDidHide() { }
   
   config = {
-    navigationBarTitleText: '突破四道防线'
+    navigationBarTitleText: '毛泽东'
   }
 
   render() {
