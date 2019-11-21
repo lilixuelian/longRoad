@@ -12,7 +12,7 @@ class People extends Component {
 
   render() {
     return (
-      <View className='people' onClick={this.turnto(this.props.page)}>
+      <View className='people' onClick={this.turnto}>
         <Image
           src={this.props.path}
         />
@@ -26,8 +26,7 @@ class People extends Component {
 
 People.defaultProps = {
   path: '',
-  name: '',
-  page:''
+  name: ''
 };
 
 export default People;
