@@ -4,6 +4,7 @@ import './recommendBooks.scss'
 // eslint-disable-next-line import/first
 import { AtTabs, AtTabsPane } from 'taro-ui'
 import Card from '../../components/Card/Card'
+import CardLow from '../../components/CardLow/CardLow'
 
 export default class Recommendbooks extends Component {
 
@@ -25,7 +26,7 @@ export default class Recommendbooks extends Component {
   }
 
   render() {
-    const tabList = [{ title: '电影' }, { title: '电视剧' }, { title: '音乐' }, { title: '书' }]
+    const tabList = [{ title: '电影' }, { title: '电视剧' }, { title: '音乐' }, { title: '书' }, { title: '画作' }, { title: '邮票' }]
     return (
       <View className='recommendBooks'>
         <AtTabs current={this.state.current} tabList={tabList} onClick={this.handleClick.bind(this)}>
@@ -165,6 +166,115 @@ export default class Recommendbooks extends Component {
                 path='http://img3m7.ddimg.cn/14/0/23904257-1_b_2.jpg'
                 title='长征记'
                 content='是2006年2月1日由中国旅游出版社出版的图书，作者是曲爱国。本书主要讲述了中国共产党长征的具体过程、经典战役、现实意义以及长征精神的内涵。'
+              />
+            </View>
+          </AtTabsPane>
+          <AtTabsPane current={this.state.current} index={2}>
+            <View style='background-color: #F1F0F5;text-align: center;'>标签页三的内容</View>
+          </AtTabsPane>
+          <AtTabsPane current={this.state.current} index={3}>
+            <View style='background-color: #F1F0F5;text-align: center;'>标签页三的内容</View>
+          </AtTabsPane>
+          <AtTabsPane current={this.state.current} index={4}>
+            <View style='background-color: #F1F0F5;text-align: center;'>
+              <Card 
+                path='http://epaper.gmw.cn/gmrb/images/2016-10/25/11/res04_attpic_brief.jpg'
+                title=''
+                content='雄关漫道真如铁，而今迈步从头越（油画·1964年）彭彬画（图片选自《中国共产党历史画典》）'
+              />
+              <Card 
+                path='http://www.woaihuahua.com/uploads/allimg/160304/10-16030414033Q32.jpg'
+                title=''
+                content='红军长征军事油画    蔡鸣 王大为 马志明 苏翰宇2009年作 中国美术馆藏'
+              />
+              <Card 
+                path='http://www.woaihuahua.com/uploads/allimg/160304/10-160304140400T3.jpg'
+                title=''
+                content='红军长征军事画《星火》 章仁缘1987年'
+              />
+              <Card 
+                path='http://www.woaihuahua.com/uploads/allimg/160304/10-16030414043R13.jpg'
+                title=''
+                content='红军长征军事画《红军到川北》刘国枢作'
+              />
+              <Card 
+                path='http://www.woaihuahua.com/uploads/allimg/160304/10-16030414045B02.jpg'
+                title=''
+                content='红军长征军事画《过普渡河（红二、六军团）》 邵亚川作'
+              />
+              <Card 
+                path='http://www.woaihuahua.com/uploads/allimg/160304/10-160304140514100.jpg'
+                title=''
+                content='红军长征军事画《三大主力会师》蔡亮、张自嶷1977年作 中国美术馆藏'
+              />
+              <Card 
+                path='http://epaper.gmw.cn/gmrb/images/2016-10/23/12/res08_attpic_brief.jpg'
+                title=''
+                content='娄山关（油画）全山石'
+              />
+              <Card 
+                path='http://epaper.gmw.cn/gmrb/images/2016-10/23/12/res10_attpic_brief.jpg'
+                title=''
+                content='万里长征诗不尽（中国画）林 岗 庞 壔'
+              />
+              <Card 
+                path='http://epaper.gmw.cn/gmrb/images/2016-10/23/12/res12_attpic_brief.jpg'
+                title=''
+                content='六盘山（中国画）李可染'
+              />
+              <Card 
+                path='http://epaper.gmw.cn/gmrb/images/2016-10/23/12/res14_attpic_brief.jpg'
+                title=''
+                content='过雪山（油画）吴作人'
+              />
+              <Card 
+                path='http://epaper.gmw.cn/gmrb/images/2016-10/23/12/res16_attpic_brief.jpg'
+                title=''
+                content='草地情（油画）张文源'
+              />
+            </View>
+          </AtTabsPane>
+          <AtTabsPane current={this.state.current} index={5}>
+            <View style='background-color: #F1F0F5;text-align: center;'>
+              <CardLow 
+                path='http://image100.360doc.com/DownloadImg/2016/09/3015/81271586_1'
+                title=''
+                content='送别'
+              />
+              <CardLow 
+                path='http://image100.360doc.com/DownloadImg/2016/09/3015/81271586_2'
+                title=''
+                content='遵义会议'
+              />
+              <CardLow 
+                path='http://image100.360doc.com/DownloadImg/2016/09/3015/81271586_3'
+                title=''
+                content='娄山关大捷'
+              />
+              <CardLow 
+                path='http://image100.360doc.com/DownloadImg/2016/09/3015/81271586_4'
+                title=''
+                content='飞夺泸定桥'
+              />
+              <CardLow 
+                path='http://image100.360doc.com/DownloadImg/2016/09/3015/81271586_5'
+                title=''
+                content='过雪山'
+              />
+              <CardLow 
+                path='http://image100.360doc.com/DownloadImg/2016/09/3015/81271586_6'
+                title=''
+                content='过草地'
+              />
+              <CardLow 
+                path='http://image100.360doc.com/DownloadImg/2016/09/3015/81271586_7'
+                title=''
+                content='会宁会师'
+              />
+              <CardLow 
+                path='http://image100.360doc.com/DownloadImg/2016/09/3015/81271586_8'
+                title=''
+                content='三军大会师'
               />
             </View>
           </AtTabsPane>
