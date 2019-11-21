@@ -8,15 +8,6 @@ import sdes from '../../../pictures/iconphoto/sdes.png'
 import cz from '../../../pictures/iconphoto/cz.png'
 import history from '../../../pictures/iconphoto/history.png'
 import pdes from '../../../pictures/iconphoto/pdes.png'
-import One from '../../../components/Number/One/One'
-import Two from '../../../components/Number/Two/Two'
-import Three from '../../../components/Number/Three/Three'
-import Four from '../../../components/Number/Four/Four'
-import Five from '../../../components/Number/Five/Five'
-import Six from '../../../components/Number/Six/Six'
-import Seven from '../../../components/Number/Seven/Seven'
-import Eight from '../../../components/Number/Eight/Eight'
-import Nine from '../../../components/Number/Nine/Nine'
 
 export default class MaoZeDong extends Component {
 
