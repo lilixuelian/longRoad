@@ -42,7 +42,7 @@ export default class Recommendbooks extends Component {
               <Card 
                 path='https://img12.360buyimg.com/jdphoto/s72x72_jfs/t6160/14/2008729947/2754/7d512a86/595c3aeeNa89ddf71.png'
                 title='公私合营'
-                content='公私合营是中国对民族资本主义工商业实行社会主义改造所采取的国家资本主义的高级形式。大体上经过个别企业的公私合营和全行业公私合营两个阶段'
+                content='公私合营是中国对民族资本主义工商业实行社会主义改造所采取的国家资本主义的高级形式。大体上经过个别企业的公私合营和全行业公私合营两个阶段公私合营是中国对民族资本主义工商业实行社会主义改造所。'
               />
               <Card 
                 path='https://img12.360buyimg.com/jdphoto/s72x72_jfs/t6160/14/2008729947/2754/7d512a86/595c3aeeNa89ddf71.png'
