@@ -1,12 +1,13 @@
 import Taro, { Component } from '@tarojs/taro'
 import { View } from '@tarojs/components'
 import './MaoZeDong.scss'
-import '../people.scss'
 import { AtCard } from 'taro-ui'
 
-import place from '../../../pictures/iconphoto/place.png'
-import time from '../../../pictures/iconphoto/time.png'
-import content from '../../../pictures/iconphoto/content.png'
+import '../people.scss'
+import sdes from '../../../pictures/iconphoto/sdes.png'
+import cz from '../../../pictures/iconphoto/cz.png'
+import history from '../../../pictures/iconphoto/history.png'
+import pdes from '../../../pictures/iconphoto/pdes.png'
 import One from '../../../components/Number/One/One'
 import Two from '../../../components/Number/Two/Two'
 import Three from '../../../components/Number/Three/Three'
@@ -40,14 +41,14 @@ export default class MaoZeDong extends Component {
         <View>　</View>
         <AtCard
           title='简介'
-          thumb={time}
+          thumb={sdes}
         >
           1934年10月24日到11月27日
         </AtCard>
         <View>　</View>
         <AtCard
           title='他/她与长征'
-          thumb={place}
+          thumb={cz}
         >
           <View> 　　第一道封锁线：东南起于安远、信丰，西北迄止赣州、南康、大余间，以桃江为天然屏障，南北长约120公里，东西宽约50公里；\n
           </View>
@@ -61,14 +62,14 @@ export default class MaoZeDong extends Component {
         <View>　</View>
         <AtCard
           title='历史贡献'
-          thumb={time}
+          thumb={history}
         >
           1934年10月24日到11月27日
         </AtCard>
         <View>　</View>
         <AtCard
           title='人物评价'
-          thumb={time}
+          thumb={pdes}
         >
           1934年10月24日到11月27日
         </AtCard>
