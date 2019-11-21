@@ -19,12 +19,19 @@ export default class Importantpeople extends Component {
 
   componentDidHide () { }
 
+  toMao(){
+    Taro.navigateTo({
+      url:'../peopleInformation/people1/people1'
+    })
+  }
+
   render () {
     return (
       <View className='importantPeople'>
         <People 
           path='https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=a15086bc31adcbef01347900949449e0/aec379310a55b3199a363d0d43a98226cefc17fe.jpg'
           name='毛泽东'
+          onclick={this.toMao()}
         />
         <People 
           path='https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=e161a7814836acaf59e091fa44e2ea2d/b219ebc4b74543a9a8a81e741d178a82b80114d2.jpg'

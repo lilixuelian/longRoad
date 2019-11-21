@@ -35,6 +35,7 @@ class App extends Component {
       'pages/Desc/Desc10/Desc10',
       'pages/Desc/Desc11/Desc11',
       'pages/Desc/Desc12/Desc12',
+      'pages/peopleInformation/people1/people1'
     ],
     window: {
       backgroundTextStyle: 'light',
