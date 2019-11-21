@@ -88,7 +88,7 @@ export default class Recommendbooks extends Component {
                 content=''
               />
               <Card 
-                path=''
+                path='' 
                 title=''
                 content=''
               />
