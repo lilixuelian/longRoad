@@ -1,7 +1,7 @@
 import Taro, { Component } from '@tarojs/taro'
 import { View } from '@tarojs/components'
 import './scenicSpots.scss'
-import Box from '../../components/Box/Box'
+import Box from '../../components/BoxS/BoxS'
 
 export default class Scenicspots extends Component {
 

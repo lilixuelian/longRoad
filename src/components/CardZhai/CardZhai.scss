@@ -1,0 +1,42 @@
+$boxWidth: 70vw;
+.box{
+    width: $boxWidth;
+    height: 120vw;
+    margin: 5vh auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.contentBox{
+    margin: 2.5vw 0;
+}
+.lineLeft{
+    width: 12vw;
+    height: 3px;
+    background-color: #CACACA;
+    margin-left: 2.5vw;
+    vertical-align: middle;
+    display: inline-block;
+}
+Image{
+    width: $boxWidth;
+    height: $boxWidth+10vw;
+}
+.lineRight{
+    width: 12vw;
+    height: 3px;
+    background-color: #CACACA;
+    margin-left: 0vw;
+    vertical-align: middle;
+    display: inline-block;
+}
+.title{
+    height: 5vh;
+    width: 35vw;
+    display: inline-block;
+    text-align: center;
+}
+.content{
+    color: #999;
+    font-size: 3vw;
+    padding: 2vw 2vw;
+}
