@@ -6,6 +6,8 @@ import { AtTabs, AtTabsPane } from 'taro-ui'
 import Card from '../../components/Card/Card'
 import CardZhai from '../../components/CardZhai/CardZhai'
 import CardLow from '../../components/CardLow/CardLow'
+import CardHigh from '../../components/CardHigh/CardHigh'
+import MusicCard from '../../components/MusicCard/MusicCard'
 
 export default class Recommendbooks extends Component {
 
@@ -98,75 +100,87 @@ export default class Recommendbooks extends Component {
           </AtTabsPane>
           <AtTabsPane current={this.state.current} index={2}>
             <View style='background-color: #F1F0F5;text-align: center;'>
-              <Card
-                path='http://pic.xiami.net/images/album/img17/3217/4271671298454522.jpg'
-                title='长征'
-                content='古典派纯音乐专辑。中国人民解放军军乐团推出的大型交响管弦乐音乐作品，包含《交响序曲》、《出征》等8首纯音乐。'
-              />
-              <Card
-                path='http://pic.xiami.net/images/album/img69/7169/4538291311214708.jpg'
-                title='长征组歌'
-                content='POP流行乐专辑。中国人民解放军战友歌舞团合唱队发行的合唱专辑，包含《四渡赤水出奇兵》等10首。'
-              />
-              <Card
-                path='http://imge.kugou.com/stdmusic/240/20180207/20180207181007867970.jpg'
-                title='一路红歌颂长征'
-                content='POP流行专辑，为纪念长征胜利80周年而录的翻唱专辑，包含《山丹丹花开红艳艳》等24首歌曲。'
-              />
-              <Card
-                path='http://img1.kuwo.cn/star/albumcover/300/11/71/3904121646.jpg'
-                title='《新音乐 长征路》红色经典系列（7张）'
-                content='是台湾著名音乐人季忠平历时一年多、精心策划和实施的一项旨在保护和发扬传统音乐的精髓,并籍此传承和发扬中华文明中的非物质文化遗产资源。'
-              />
+            <MusicCard
+            poster= 'http://p2.music.126.net/I2ajFAF4Zh93NyEwBHVCRg==/1426066593653442.jpg?param=130y130'
+            name= '八月桂花遍地开'
+            author= '徐贵祥'
+            src= 'http://m801.music.126.net/20191121183421/d733727ec95c78fbce4b4cc2e1cecc08/jdyyaac/015c/0258/0509/66f201dd7452fdf78e312ca011c342bf.m4a'
+            title='《八月桂花遍地开》'
+            content='曲调优美、歌词生动，这首歌很快就在豫东南革命根据地传开了。后来，伴随着红军的足迹传遍了大江南北。它是以大别山民歌《八段锦》为曲调、依曲填词而成的。'
+            />
+            <MusicCard
+            poster= 'http://p1.music.126.net/PmpjIEsnzmR8jx7C-QTb1A==/109951163497823236.jpg?param=130y130'
+            name= '十送红军'
+            author= '朱正本、张士燮收集整理'
+            src= 'http://m801.music.126.net/20191121183511/bb3211f509aa039b46ea8892266e5871/jdyyaac/0f58/5609/075d/821617c94facd6fe3414070e50ae2e4c.m4a'
+            title='《十送红军》'
+            content='当年，在中国共产党和红四方面军的领导下进行了艰苦卓绝的斗争，留下了可歌可泣，光照日月的事迹。这些，必然要反映到劳动人民口头文学的创作里。'
+            />
+            <MusicCard
+            poster= 'http://p2.music.126.net/vlgUxpQBrJhjFgh3MFBFOQ==/109951163497917519.jpg?param=130y130'
+            name= '过雪山草地'
+            author= '肖华'
+            src= 'http://m10.music.126.net/20191121183929/504b80013cbb55d20219bf0ff9b48e58/ymusic/27a2/802e/fcdb/6a1803122c04221dab0567115a9a3779.mp3'
+            title='《过雪山草地》'
+            content='歌词内容可以分为两部分， 第一部分描写红军过雪山草地时遇到的极大困难。第二部分描写红军战天斗地、以野菜充饥的顽强斗志，表现了红军战士力量的源泉。'
+            />
+            <MusicCard
+            poster= 'http://p2.music.126.net/y1IX3If8JHSwOTOvUq8jig==/86861418611943.jpg?param=130y130'
+            name= '突破封锁线'
+            author= '萧华'
+            src= 'http://m801.music.126.net/20191121210208/47a4c55ece9c8321fcf116302dbd2fd8/jdyyaac/0f5e/565c/5352/84a5b81935a6fdc8f999d80189083a42.m4a'
+            title='《突破封锁线》'
+            content='《突破封锁线》是《长征组歌》的第二首，萧华作词，1976年舞台艺术片《长征组歌》拍摄完成。'
+            />
+            
             </View>
           </AtTabsPane>
           <AtTabsPane current={this.state.current} index={3}>
             <View style='background-color: #F1F0F5;text-align: center;'>
+              <CardHigh
+                path='http://img3m7.ddimg.cn/49/15/20033887-1_u.jpg'
+                title='《中国工农红军长征亲历记》'
+                content='《中国工农红军长征亲历记》是2005年5月1日由四川人民出版社出版的图书，作者是李海文。本书重新梳理和精选了原文90篇，按一日、一事，行军时间、路线顺序排列。这样，读者看到的将是一个完整的红军长征历程，长征故事。'
+              />
+              <CardHigh
+                path='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574336431800&di=4c3eb7064ea330f830d0706aed8c6435&imgtype=0&src=http%3A%2F%2Fimg1.winxuan.cn%2F5389%2F10095389_16.jpg%3F1401042432007'
+                title='《长征：前所未闻的故事》'
+                content='一本记述20世纪30年代中共领导下的中国工农红军面临绝境，被迫转移，历经艰难险阻，终于脱离险境的纪实性文学作品。由美国作家、全美作家协会主席哈里森·埃文斯·索尔兹伯里于1986年写成，三年后被译成中文在中国大陆出版发行。'
+              />
+              <CardHigh
+                path='https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike150%2C5%2C5%2C150%2C50/sign=7f2bfdc85cda81cb5aeb8b9f330fbb73/eac4b74543a982261db93e1b8782b9014a90eb96.jpg'
+                title='《红星照耀中国》'
+                content='《红星照耀中国》是美国著名记者埃德加·斯诺的不朽名著，一部文笔优美的纪实性很强的报道性作品。作者真实记录了自1936年6月至10月在中国西北革命根据地进行实地采访的所见所闻，向全世界真实报道了中国共产党和中国工农红军以及许多红军领袖、红军将领的情况。'
+              />
               <Card
-                path='https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike92%2C5%2C5%2C92%2C30/sign=6437c37d46ed2e73e8e48e7ee668caee/77094b36acaf2eddf1816510811001e9380193d2.jpg'
-                title='长征'
-                content='第一部用纪实方式最全面反映长征的文学作品。作者：王树增 
-                出版时间：2006-09-01'
+                path='https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike272%2C5%2C5%2C272%2C90/sign=7210436a9b13b07ea9b0585a6dbefa46/7aec54e736d12f2e30da6a2b47c2d5628435689a.jpg'
+                title='《长征》'
+                content='中国工农红军长征所展现的永不磨灭的信念，是全人类追寻理想的宝贵精神财富。为增进广大读者对长征精神的理解，弘扬长征精神在当今的现实意义，王树增先生创作出《长征》，广受读者好评赞赏。'
               />
-              <Card 
-                path='https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike116%2C5%2C5%2C116%2C38/sign=f5958e948f26cffc7d27b7e0d86821f5/29381f30e924b899ebd1813563061d950b7bf6ca.jpg'
-                title='苦难辉煌'
-                content='是当代作家金一南创作的纪实文学，首次出版于2009年。'
+              <Card
+                path='http://img2.imgtn.bdimg.com/it/u=3985817173,2938599803&fm=15&gp=0.jpg'
+                title='《红军长征追踪》'
+                content='《红军长征追踪》是一本是日记，也是一部历史，更是一本独特的研究著作。作者在长征路上边记录 [1]  ，边思考，让读者在许多“离所示闻的故事”中得到新启示。'
               />
-              <Card 
-                path='http://img3m8.ddimg.cn/61/32/25119628-1_b_3.jpg'
-                title='红军长征记'
-                content='亲历长征的红军们的回忆录，语言平实，情感质朴。'
+              <CardHigh
+                path='http://img3.jarhu.com/goodimages/201210/13/di1350100633728.jpg'
+                title='《长征行》'
+                content='《长征行》是2006年1月1日中共党史出版社出版的图书，作者是石仲泉。本书是作者利用六年的时间，重走了红一、红二方面军的全部长征路及红二十五军的部分长征路，对主要历史事件的发生地、重要历史人物的重大活动情况作了深入细致的探究和分析。'
               />
-              <Card 
-                path='http://img3m5.ddimg.cn/55/26/25086655-1_b_7.jpg'
-                title='红军照耀中国'
-                content='又称《西行漫记》，作者埃德加·斯诺，是一部纪实性很强的报道性作品。真实记录了自1936年6月至10月在中国西北革命根据地进行实地采访的所见所闻，真实报道了党和工农红军以及许多红军领袖、红军将领的情况。'
+              <CardHigh
+                path='http://img0.winxuancdn.com/4749/1201534749_0_1_800x800.jpg?1524638817960&imageMogr2/thumbnail/600x600'
+                title='《红军长征记》'
+                content='《红军长征记》是1937年2月由丁玲主编的一本记述长征的书，原名初为《二万五千里》。《红军长征记》是极为珍贵的一本书，也是我党我军历史上最早、最真实、最具文化特色的纪实文学作品。'
               />
-              <Card 
-                path='http://img3m4.ddimg.cn/36/0/1573430994-1_b_1.jpg'
-                title='长征大会师'
-                content='雷献禾所著小说，全景式再现中国工农红军历经二万五千里长征，胜利大会师的壮阔画卷。既有长征途中红军经历的百丈关、直罗镇、腊子口等悲壮、惨烈的宏大战役场面，又有关于普通人物投身革命参加长征后，英勇善战、历经悲欢的动人故事。'
+              <CardHigh
+                path='http://img30.ddimg.cn/44/9/1123494020-1_u_1.jpg'
+                title='《地球的红飘带》'
+                content='《地球的红飘带》 [1]  是我国第一部描写红军二万五千里长征的长篇小说。作品从湘江之役写起，描绘了中央红军长征的完整过程。作者——著名作家魏巍以诗人的激情和历史学家的严肃精神，真实地、艺术地再现了长征这一人类历史上的壮举，使诗与史融为一体。'
               />
-              <Card 
-                path='http://img3m3.ddimg.cn/57/14/23976273-1_b_4.jpg'
-                title='地球的红飘带'
-                content='是著名作家魏巍创作于1987年的一部长篇小说，描述中央红军长征的完整过程。“地球的红飘带”一词从此之后就用来指代红军的两万五千里长征。'
-              />
-              <Card 
-                path='http://img3m6.ddimg.cn/4/17/23948896-1_b_4.jpg'
-                title='红军长征史'
-                content='2006年3月中共党史出版社出版，作者是中共中央党史研究室第一研究部。该书主要记述了红军长征的历史。'
-              />
-              <Card 
-                path='http://img3m7.ddimg.cn/31/18/1315082767-1_b_2.jpg'
-                title='中国工农红军长征简史'
-                content='2006年 中共党史出版社出版的图书。作者是 力平，余熙山。'
-              />
-              <Card 
-                path='http://img3m7.ddimg.cn/14/0/23904257-1_b_2.jpg'
-                title='长征记'
-                content='是2006年2月1日由中国旅游出版社出版的图书，作者是曲爱国。本书主要讲述了中国共产党长征的具体过程、经典战役、现实意义以及长征精神的内涵。'
+              <CardHigh
+                path='https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike72%2C5%2C5%2C72%2C24/sign=da4ce2afc0fdfc03f175ebeab556ecf1/58ee3d6d55fbb2fb51a64c434c4a20a44723dcd5.jpg'
+                title='《从革命到政治：长征与毛泽东的崛起》'
+                content='《从革命到政治:长征与毛泽东的崛起》以20世纪30年代红军长征为中心题材，讨论中国革命与中国政治的相互关系。作者应用了大量国内外文献档案和当事人自述资料，澄清了若干史实疑难问题，'
               />
             </View>
           </AtTabsPane>
