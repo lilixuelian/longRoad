@@ -17,7 +17,7 @@ class App extends Component {
       'pages/index/index',
       'pages/pointsGather/pointsGather',
       'pages/historyVideos/historyVideos',
-      'pages/recommendBooks/recommendBooks',
+      // 'pages/recommendBooks/recommendBooks',
       'pages/importantPeople/importantPeople',
       'pages/scenicSpots/scenicSpots',
       'pages/famousArticles/famousArticles',
