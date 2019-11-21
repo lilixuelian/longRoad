@@ -18,9 +18,6 @@ import Six from '../../../components/Number/Six/Six'
 
 export default class Desc1 extends Component {
 
-  config = {
-    navigationBarTitleText: '突破四道防线'
-  }
 
   componentWillMount() { }
 
@@ -31,6 +28,10 @@ export default class Desc1 extends Component {
   componentDidShow() { }
 
   componentDidHide() { }
+  
+  config = {
+    navigationBarTitleText: '突破四道防线'
+  }
 
   render() {
     return (

@@ -3,9 +3,17 @@ import { View, Image } from '@tarojs/components';
 import './Box.scss';
 
 class Box extends Component {
+
+  show(){
+    // const {path}=this.props.path;
+    // console.log(this.props.path);
+    // console.log(this.props.contentmore);
+
+  }
+
   render() {
     return (
-      <View className='box'>
+      <View className='box' onClick={this.show.bind(this,this.props.path,this.props.contentmore)}>
         <Image
           src={this.props.path}
         />
@@ -21,7 +29,8 @@ class Box extends Component {
 Box.defaultProps = {
     path:'',
     title:'',
-    content:''
+    content:'',
+    contentmore:''
 };
 
 export default Box;
