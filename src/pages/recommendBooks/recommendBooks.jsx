@@ -73,7 +73,7 @@ export default class Recommendbooks extends Component {
           </AtTabsPane>
           <AtTabsPane current={this.state.current} index={1}>
             <View style='background-color: #F1F0F5;text-align: center;'>
-            <Card
+              <Card
                 path='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574853730&di=d3c4f8724f52dae99e4950df2f123488&imgtype=jpg&er=1&src=http%3A%2F%2Fdingyue.nosdn.127.net%2FXXzoOyMU62ntZrA2TeesDTejvVNLgnXI2PoqilNI4LsV91551865549042compressflag.jpeg'
                 title='伟大的转折'
                 content='2019年首播。由李伟执导，侯京健、许敏、王韦智、马晓伟等主演的革命历史剧。该剧讲述了毛泽东等在红军长征途中自通道转兵以后，指挥中央红军最终粉碎数十倍国民党军围追堵截而使红军重出生天的故事。'
@@ -97,7 +97,7 @@ export default class Recommendbooks extends Component {
           </AtTabsPane>
           <AtTabsPane current={this.state.current} index={2}>
             <View style='background-color: #F1F0F5;text-align: center;'>
-            <Card
+              <Card
                 path='http://pic.xiami.net/images/album/img17/3217/4271671298454522.jpg'
                 title='长征'
                 content='古典派纯音乐专辑。中国人民解放军军乐团推出的大型交响管弦乐音乐作品，包含《交响序曲》、《出征》等8首纯音乐。'
