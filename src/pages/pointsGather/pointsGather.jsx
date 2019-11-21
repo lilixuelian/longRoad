@@ -36,8 +36,7 @@ export default class Pointsgather extends Component {
     }
     else if(index == 3){
       Taro.navigateTo({
-        // url: '../recommendBooks/recommendBooks'
-        url: '../historyVideos/historyVideos'
+        url: '../recommendBooks/recommendBooks'
       })
     }
     else if(index == 4){

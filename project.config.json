@@ -76,6 +76,12 @@
 					"pathName": "pages/famousArticles/famousArticles",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "珍贵历史资料",
+					"pathName": "pages/historyVideos/historyVideos",
+					"scene": null
 				}
 			]
 		}
