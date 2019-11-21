@@ -1,42 +1,42 @@
-$boxWidth: 430px;
+$boxWidth: 70vw;
 .box{
     width: $boxWidth;
-    height: 800px;
-    margin: 50px auto;
+    height: 120vw;
+    margin: 5vh auto;
     background-color: #ffffff;
     border-radius: 20px;
 }
 .contentBox{
-    margin: 10px 0;
+    margin: 2.5vw 0;
 }
 .lineLeft{
-    width: 40px;
+    width: 12vw;
     height: 3px;
     background-color: #CACACA;
-    margin-left: 35px;
+    margin-left: 2.5vw;
     vertical-align: middle;
     display: inline-block;
 }
 Image{
     width: $boxWidth;
-    height: $boxWidth;
+    height: $boxWidth+10vw;
 }
 .lineRight{
-    width: 40px;
+    width: 12vw;
     height: 3px;
     background-color: #CACACA;
-    margin-left: 5px;
+    margin-left: 0vw;
     vertical-align: middle;
     display: inline-block;
 }
 .title{
-    height: 50px;
-    width: 270px;
+    height: 5vh;
+    width: 35vw;
     display: inline-block;
     text-align: center;
 }
 .content{
     color: #999;
-    font-size: 24px;
-    padding: 20px 60px;
+    font-size: 3vw;
+    padding: 2vw 2vw;
 }
