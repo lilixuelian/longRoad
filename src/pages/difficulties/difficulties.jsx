@@ -70,6 +70,7 @@ export default class Difficulties extends Component {
   render() {
     return (
       <View className='difficulties'>
+        <View>　</View>
         <AtCard>
           <View>长征遇到了什么困难？\n</View>
           <View>　</View>
@@ -219,6 +220,7 @@ export default class Difficulties extends Component {
             </AtList>
           </AtAccordion>
         </AtCard>
+        <View>　</View>
       </View>
     )
   }
