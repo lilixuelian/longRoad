@@ -425,7 +425,7 @@ export default class Scenicspots extends Component {
 
        <View onClick={this.handleOpen8.bind(this)}>
        <BoxS
-          path='http://special.yunnan.cn/feature14/images/attachement/jpg/site2/20160914/d8cb8a0c657919436c0357.jpg'
+          path='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574424663228&di=f222c7ab52511a90873efa68044a186f&imgtype=0&src=http%3A%2F%2Fc2-q.mafengwo.net%2Fs10%2FM00%2F70%2FC7%2FwKgBZ1kJhwiAKUe7AAL38hYDCvM30.jpeg%3FimageView2%2F2%2Fw%2F680%2Fq%2F90'
           title='皎平渡大桥'
           content='云南昆明禄劝县皎西乡皎平渡渡口'
         />
@@ -433,7 +433,7 @@ export default class Scenicspots extends Component {
         <AtModal isOpened={i8}>
            <AtModalHeader>皎平渡大桥</AtModalHeader>
            <AtModalContent>
-             <Image src='http://special.yunnan.cn/feature14/images/attachement/jpg/site2/20160914/d8cb8a0c657919436c0357.jpg' style="margin-left: 150rpx"></Image>
+             <Image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574424663228&di=f222c7ab52511a90873efa68044a186f&imgtype=0&src=http%3A%2F%2Fc2-q.mafengwo.net%2Fs10%2FM00%2F70%2FC7%2FwKgBZ1kJhwiAKUe7AAL38hYDCvM30.jpeg%3FimageView2%2F2%2Fw%2F680%2Fq%2F90' style="margin-left: 150rpx"></Image>
              <View style="bottom: 30rpx">金沙江位于云南昆明禄劝县皎西乡皎平渡渡口。金沙江位于长江的上游。它穿行在川滇边界的深山狭谷间，江面宽阔，水急浪大。如果红军过不去，就会被敌人压进深山狭谷，遭致全军覆灭的危险。于1935年5月3日晚至9日，从皎平渡口巧渡金沙江，彻底摆脱了国民党几十万大军的围追堵截。3万名红军胜利甩脱了几十万国民党军队的围追堵截，真正地跳出了敌人的包围圈，自此皎平渡写入了中国革命的历史。在金沙江边举头遥望，可以看到对岸蜿蜒的山脊地形成一个仰卧的毛主席头像，其五官比例惟妙惟肖，神态安详，让人惊叹大自然的鬼斧神工，也成为金沙江畔一道奇特的风景线。1992年，连接川滇两省的皎平渡大桥落成，聂荣臻元帅亲自为《红军巧渡金沙江纪念碑》题写碑名，宋任穷(当年红军干部团政委)题写了碑文，详尽地记载了红军的渡江经历和渡江后两次激战的经过，成为向子孙后代进行革命传统教育的重要内容，皎平渡口及山洞遗址也成为省级文物保护单位。</View>
           <View style="height: 30rpx"></View>
            </AtModalContent>

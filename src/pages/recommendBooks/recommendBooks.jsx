@@ -77,7 +77,7 @@ export default class Recommendbooks extends Component {
           <AtTabsPane current={this.state.current} index={1}>
             <View style='background-color: #F1F0F5;text-align: center;'>
               <Card
-                path='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574853730&di=d3c4f8724f52dae99e4950df2f123488&imgtype=jpg&er=1&src=http%3A%2F%2Fdingyue.nosdn.127.net%2FXXzoOyMU62ntZrA2TeesDTejvVNLgnXI2PoqilNI4LsV91551865549042compressflag.jpeg'
+                path='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574425697692&di=c9e2dd94ea3c7c970ea6d752e8c64ca0&imgtype=0&src=http%3A%2F%2Fr.sinaimg.cn%2Flarge%2Farticle%2F82a47b51b7c209d0e7b037daf8c19ffa'
                 title='伟大的转折'
                 content='2019年首播。由李伟执导，侯京健、许敏、王韦智、马晓伟等主演的革命历史剧。该剧讲述了毛泽东等在红军长征途中自通道转兵以后，指挥中央红军最终粉碎数十倍国民党军围追堵截而使红军重出生天的故事。'
               />
@@ -246,42 +246,42 @@ export default class Recommendbooks extends Component {
           <AtTabsPane current={this.state.current} index={5}>
             <View style='background-color: #F1F0F5;text-align: center;'>
               <CardLow
-                path='http://image100.360doc.com/DownloadImg/2016/09/3015/81271586_1'
+                path='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574424968557&di=cdc5e4437719ccedf2bdc07a089aab47&imgtype=0&src=http%3A%2F%2Fwww.cnarts.net%2Fuploadimages%2Fcweb%2Fnews%2F2015-01%2F2015-01-26%2F2015-01-26_14014199.jpg'
                 title=''
-                content='送别'
+                content='长征胜利七十周年'
               />
               <CardLow
-                path='http://image100.360doc.com/DownloadImg/2016/09/3015/81271586_2'
+                path='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574425181687&di=71b953ef19074b3bd554aa9888027d5c&imgtype=0&src=http%3A%2F%2Fp1.ifengimg.com%2Fcmpp%2F2016%2F10%2F15%2F15%2Fea945000-0756-4443-8c28-8f434dfdfe7c_size336_w500_h302.png'
                 title=''
-                content='遵义会议'
+                content='长征胜利八十周年'
               />
               <CardLow
-                path='http://image100.360doc.com/DownloadImg/2016/09/3015/81271586_3'
+                path='https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1551194183,2162157236&fm=26&gp=0.jpg'
+                title=''
+                content='遵义会议五十周年'
+              />
+              <CardLow
+                path='https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1053700472,431281535&fm=26&gp=0.jpg'
                 title=''
                 content='娄山关大捷'
               />
               <CardLow
-                path='http://image100.360doc.com/DownloadImg/2016/09/3015/81271586_4'
-                title=''
-                content='飞夺泸定桥'
-              />
-              <CardLow
-                path='http://image100.360doc.com/DownloadImg/2016/09/3015/81271586_5'
+                path='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574425449539&di=b78c1e9e28130c1c5587323a283c97bf&imgtype=0&src=http%3A%2F%2Fimage.bjzxcp.com%2Fimages%2Fupload%2F2016%2F10%2F1017%2F1476685480199436.png'
                 title=''
                 content='过雪山'
               />
               <CardLow
-                path='http://image100.360doc.com/DownloadImg/2016/09/3015/81271586_6'
+                path='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574425473726&di=cea25e69feb581b3f1d5ebeccb613188&imgtype=0&src=http%3A%2F%2Fwww.zhybb.com%2Fbyc%2Fimages%2Fstm220%2FCUCN%2FA6025%2FCUCN-A6025S-04.jpg'
                 title=''
                 content='过草地'
               />
               <CardLow
-                path='http://image100.360doc.com/DownloadImg/2016/09/3015/81271586_7'
+                path='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574425497842&di=481115f85b470dbee8b0eb1ac7371d29&imgtype=0&src=http%3A%2F%2Fwww.zhybb.com%2Fimages%2Fstm220%2FCUCN%2FB2014%2FCUCN-B2014S-04.jpg'
                 title=''
                 content='会宁会师'
               />
               <CardLow
-                path='http://image100.360doc.com/DownloadImg/2016/09/3015/81271586_8'
+                path='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574425537589&di=7a0abfa545f5c0cfa1d9f3c9b4217bae&imgtype=0&src=http%3A%2F%2Fztd00.photos.bdimg.com%2Fztd%2Fw%3D700%3Bq%3D50%2Fsign%3D4628a612d900baa1ba2c45bb772bc82f%2F08f790529822720ed5e6890473cb0a46f21fab20.jpg'
                 title=''
                 content='三军大会师'
               />
