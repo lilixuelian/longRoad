@@ -85,9 +85,9 @@
 					"scene": null
 				},
 				{
-					"id": 7,
-					"name": "文章11",
-					"pathName": "pages/Articles/Article11/Article",
+					"id": -1,
+					"name": "长征路难",
+					"pathName": "pages/difficulties/difficulties",
 					"query": "",
 					"scene": null
 				}
