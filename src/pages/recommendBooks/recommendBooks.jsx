@@ -1,7 +1,6 @@
 import Taro, { Component } from '@tarojs/taro'
 import { View } from '@tarojs/components'
 import './recommendBooks.scss'
-// eslint-disable-next-line import/first
 import { AtTabs, AtTabsPane } from 'taro-ui'
 import Card from '../../components/Card/Card'
 import CardZhai from '../../components/CardZhai/CardZhai'
@@ -11,7 +10,6 @@ import MusicCard from '../../components/MusicCard/MusicCard'
 
 export default class Recommendbooks extends Component {
 
-  // eslint-disable-next-line react/sort-comp
   config = {
     navigationBarTitleText: '推荐影视作品'
   }
@@ -100,39 +98,39 @@ export default class Recommendbooks extends Component {
           </AtTabsPane>
           <AtTabsPane current={this.state.current} index={2}>
             <View style='background-color: #F1F0F5;text-align: center;'>
-            <MusicCard
-            poster= 'http://p2.music.126.net/I2ajFAF4Zh93NyEwBHVCRg==/1426066593653442.jpg?param=130y130'
-            name= '八月桂花遍地开'
-            author= '徐贵祥'
-            src= 'http://m801.music.126.net/20191122193720/d02d2899ff69a05b14098f24cac9a5b3/jdyyaac/0708/5652/560c/0bc31b5f42a8ff33c150af38dbb3e062.m4a'
-            title='《八月桂花遍地开》'
-            content='曲调优美、歌词生动，这首歌很快就在豫东南革命根据地传开了。后来，伴随着红军的足迹传遍了大江南北。它是以大别山民歌《八段锦》为曲调、依曲填词而成的。'
-            />
-            <MusicCard
-            poster= 'http://p1.music.126.net/PmpjIEsnzmR8jx7C-QTb1A==/109951163497823236.jpg?param=130y130'
-            name= '十送红军'
-            author= '朱正本、张士燮收集整理'
-            src= 'http://m701.music.126.net/20191122193825/9e72b3d9c18e130fa3715a98c5d78b6d/jdyyaac/0308/515f/515a/4b40ff3d5bf56888080cf01d7080edfd.m4a'
-            title='《十送红军》'
-            content='当年，在中国共产党和红四方面军的领导下进行了艰苦卓绝的斗争，留下了可歌可泣，光照日月的事迹。这些，必然要反映到劳动人民口头文学的创作里。'
-            />
-            <MusicCard
-            poster= 'http://p2.music.126.net/vlgUxpQBrJhjFgh3MFBFOQ==/109951163497917519.jpg?param=130y130'
-            name= '过雪山草地'
-            author= '肖华'
-            src= 'http://m801.music.126.net/20191122193912/5d43e3e833603678e702cad4dada05fb/jdyyaac/065d/5253/530e/17ca566e7ae97a8a55cfdd878ab758ce.m4a'
-            title='《过雪山草地》'
-            content='歌词内容可以分为两部分， 第一部分描写红军过雪山草地时遇到的极大困难。第二部分描写红军战天斗地、以野菜充饥的顽强斗志，表现了红军战士力量的源泉。'
-            />
-            <MusicCard
-            poster= 'http://p2.music.126.net/y1IX3If8JHSwOTOvUq8jig==/86861418611943.jpg?param=130y130'
-            name= '突破封锁线'
-            author= '萧华'
-            src= 'http://m801.music.126.net/20191121210208/47a4c55ece9c8321fcf116302dbd2fd8/jdyyaac/0f5e/565c/5352/84a5b81935a6fdc8f999d80189083a42.m4a'
-            title='《突破封锁线》'
-            content='《突破封锁线》是《长征组歌》的第二首，萧华作词，1976年舞台艺术片《长征组歌》拍摄完成。'
-            />
-            
+              <MusicCard
+                poster='http://p2.music.126.net/I2ajFAF4Zh93NyEwBHVCRg==/1426066593653442.jpg?param=130y130'
+                name='八月桂花遍地开'
+                author='徐贵祥'
+                src='http://vd2.bdstatic.com/mda-ii9c3srppu6sjjt5/sc/mda-ii9c3srppu6sjjt5.mp4'
+                title='《八月桂花遍地开》'
+                content='曲调优美、歌词生动，这首歌很快就在豫东南革命根据地传开了。后来，伴随着红军的足迹传遍了大江南北。它是以大别山民歌《八段锦》为曲调、依曲填词而成的。'
+              />
+              <MusicCard
+                poster='http://p1.music.126.net/PmpjIEsnzmR8jx7C-QTb1A==/109951163497823236.jpg?param=130y130'
+                name='十送红军'
+                author='朱正本、张士燮收集整理'
+                src='http://m701.music.126.net/20191122193825/9e72b3d9c18e130fa3715a98c5d78b6d/jdyyaac/0308/515f/515a/4b40ff3d5bf56888080cf01d7080edfd.m4a'
+                title='《十送红军》'
+                content='当年，在中国共产党和红四方面军的领导下进行了艰苦卓绝的斗争，留下了可歌可泣，光照日月的事迹。这些，必然要反映到劳动人民口头文学的创作里。'
+              />
+              <MusicCard
+                poster='http://p2.music.126.net/vlgUxpQBrJhjFgh3MFBFOQ==/109951163497917519.jpg?param=130y130'
+                name='过雪山草地'
+                author='肖华'
+                src='http://m801.music.126.net/20191122193912/5d43e3e833603678e702cad4dada05fb/jdyyaac/065d/5253/530e/17ca566e7ae97a8a55cfdd878ab758ce.m4a'
+                title='《过雪山草地》'
+                content='歌词内容可以分为两部分， 第一部分描写红军过雪山草地时遇到的极大困难。第二部分描写红军战天斗地、以野菜充饥的顽强斗志，表现了红军战士力量的源泉。'
+              />
+              <MusicCard
+                poster='http://p2.music.126.net/y1IX3If8JHSwOTOvUq8jig==/86861418611943.jpg?param=130y130'
+                name='突破封锁线'
+                author='萧华'
+                src='http://m801.music.126.net/20191121210208/47a4c55ece9c8321fcf116302dbd2fd8/jdyyaac/0f5e/565c/5352/84a5b81935a6fdc8f999d80189083a42.m4a'
+                title='《突破封锁线》'
+                content='《突破封锁线》是《长征组歌》的第二首，萧华作词，1976年舞台艺术片《长征组歌》拍摄完成。'
+              />
+
             </View>
           </AtTabsPane>
           <AtTabsPane current={this.state.current} index={3}>

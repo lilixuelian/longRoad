@@ -1,5 +1,5 @@
 import Taro, { Component } from '@tarojs/taro';
-import { View, Image } from '@tarojs/components';
+import { View,  Audio } from '@tarojs/components';
 import './MusicCard.scss';
 
 
