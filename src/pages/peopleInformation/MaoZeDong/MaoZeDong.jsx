@@ -1,9 +1,10 @@
 import Taro, { Component } from '@tarojs/taro'
 import { View } from '@tarojs/components'
-import './MaoZeDong.scss'
 import { AtCard } from 'taro-ui'
 
+import './MaoZeDong.scss'
 import '../people.scss'
+
 import sdes from '../../../pictures/iconphoto/sdes.png'
 import cz from '../../../pictures/iconphoto/cz.png'
 import history from '../../../pictures/iconphoto/history.png'
