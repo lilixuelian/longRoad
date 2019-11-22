@@ -44,12 +44,12 @@ export default class Historyvideos extends Component {
                 title='海拔最高的红军墓地'
                 content='中国海拔最高的红军墓地，在大板雪山。转自张国勤著,追逐红飘带 单骑走访长征路纪实摄影集。'
               />
-              <Card 
+              <CardHigh 
                 path='https://pic2.zhimg.com/80/v2-193d87e0dfb2462eb1511043529e1b68_hd.jpg'
                 title='主力部队一方面军到达陕北'
                 content='主力部队一方面军到达陕北的照片（席地而坐，朴实）'
               />
-              <Card 
+              <CardHigh 
                 path='https://pic3.zhimg.com/80/v2-87e209c9653abdde37046155dead82cc_hd.jpg'
                 title='草鞋'
                 content='十三集团军党史资料征集办公室编,万里风云 十三集团军史料选编,1987.1,'
@@ -69,7 +69,7 @@ export default class Historyvideos extends Component {
                 title=''
                 content='图中是红军翻越雪山时的照片'
               />
-              <Card 
+              <CardHigh 
                 path='http://5b0988e595225.cdn.sohucs.com/images/20181130/28f145838cba445ba5a9b5b5c3079d12.png'
                 title=''
                 content='长征时红军的穿着，绑腿和草鞋是红军战士的两大“法宝”。'
@@ -79,7 +79,7 @@ export default class Historyvideos extends Component {
                 title=''
                 content='这是长征中的一个战役“飞夺泸定桥”桥身都是铁索，桥下是汹涌的怒江'
               />
-              <Card 
+              <CardHigh 
                 path='https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=238406150,1337070778&fm=175&app=25&f=JPEG?w=600&h=400&s=8CE272234A318DCE0A19E9920100E091'
                 title=''
                 content='当地百姓送我们的军人长征路，可以看出来百姓们还是十分爱我们的军人的。'
@@ -96,12 +96,12 @@ export default class Historyvideos extends Component {
                 content='红军总司令朱德向红军指战员讲话'
               />
               
-              <Card 
+              <CardHigh
                 path='http://5b0988e595225.cdn.sohucs.com/images/20180712/e022653cb6814a1e9221a009f70736d0.jpeg'
                 title='红军战士助民麦收'
                 content='红军战士助民麦收 聂荣臻摄'
               />
-              <Card 
+              <CardHigh 
                 path='http://5b0988e595225.cdn.sohucs.com/images/20180712/1d04684bd4324f7eae5f23c2b40566ed.jpeg'
                 title='红小鬼歌舞队'
                 content='红小鬼歌舞队 苏静摄'
@@ -111,12 +111,12 @@ export default class Historyvideos extends Component {
                 title=''
                 content='红25军部分重伤员与7名女战士渡过渭河合影 当地照相馆摄'
               />
-              <Card 
+              <CardHigh 
                 path='http://5b0988e595225.cdn.sohucs.com/images/20180712/7e6aa332a8d041bcbe88fcc5690789bf.jpeg'
                 title=''
                 content='红25军和陕甘红军在永平举行会师联欢会 当地照相馆摄'
               />
-              <Card 
+              <CardHigh 
                 path='https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=4241130145,1421898565&fm=175&s=88E27227900267471E9CA08E0100C091&w=620&h=382&img.JPEG'
                 title=''
                 content='红军长征时期四渡赤水打乱了敌人的部署，体现了我军军事指挥官的才华。图中是当时的赤水河。'
@@ -220,12 +220,12 @@ export default class Historyvideos extends Component {
                 title=''
                 content='1935年11月29日，红六军团领导人在湖南新化合影，那时二、六军团长征刚开始不久。前排左起：周仁杰、李铨、王震、夏曦、萧克 。中排左六晏福生，左七刘礼年。后排左起：王赤军、贺庆积、戴正华。'
               />
-              <Card 
+              <CardHigh 
                 path='https://pic2.zhimg.com/80/v2-4c1315e4ab177384611083eaa17eb334_hd.jpg'
                 title=''
                 content='红二十五军领导人与警卫员合影，第一排从左往右依次为：吴焕先、郭述申、徐海东、戴季英、赵凌波'
               />
-              <Card 
+              <CardHigh 
                 path='http://5b0988e595225.cdn.sohucs.com/images/20180712/9ebf265f558e4b638e7e5cdb205dc78d.jpeg'
                 title=''
                 content='我军南征胜利占领新化城纪念 当地照相馆摄'
@@ -235,12 +235,12 @@ export default class Historyvideos extends Component {
                 title=''
                 content='邓小平与部分政治工作干部在红军胜利到达陕北后在旬邑县的合影'
               />
-              <Card 
+              <CardHigh 
                 path='http://5b0988e595225.cdn.sohucs.com/images/20180712/39f9532514304e58a859b4e1f3725a60.jpeg'
                 title=''
                 content='王震和欢迎红军的贵州苗族群众合影 当地照相馆摄'
               />
-              <Card 
+              <CardHigh 
                 path='http://www.people.com.cn/mediafile/pic/20150907/18/14643702515381025690.jpg'
                 title=''
                 content='参加长征的部分女战士在北京合影'

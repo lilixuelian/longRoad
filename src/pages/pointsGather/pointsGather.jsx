@@ -41,12 +41,12 @@ export default class Pointsgather extends Component {
     }
     else if(index == 4){
       Taro.navigateTo({
-        url: '../historicalDataWeb/historicalDataWeb'
+        url: '../scenicSpots/scenicSpots'
       })
     }
     else if(index == 5){
       Taro.navigateTo({
-        url: '../scenicSpots/scenicSpots'
+        url: '../difficulties/difficulties'
       })
     }
   }
