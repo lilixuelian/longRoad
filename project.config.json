@@ -81,6 +81,14 @@
 					"id": -1,
 					"name": "珍贵历史资料",
 					"pathName": "pages/historyVideos/historyVideos",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 7,
+					"name": "文章11",
+					"pathName": "pages/Articles/Article11/Article",
+					"query": "",
 					"scene": null
 				}
 			]

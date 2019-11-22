@@ -3,9 +3,15 @@ import { View, Image } from '@tarojs/components';
 import './Article.scss';
 
 class Article extends Component {
+  turnto(){
+    Taro.navigateTo({
+      url:this.props.page
+    })
+  }
+  
   render() {
     return (
-      <View className='article'>
+      <View className='article' onClick={this.turnto}>
           <View>
             <Image className='avatar' src={this.props.path}></Image>
             <View className='wordsInformation'>
