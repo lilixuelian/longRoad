@@ -28,8 +28,10 @@ export default class Famousarticles extends Component {
           time='1934年12月'
           title='七律·长征'
           content='红军不怕远征难，万水千山只等闲。五岭逶迤腾细浪，乌蒙磅礴走泥丸。金沙水拍云崖暖，大渡桥横铁索寒。更喜岷山千里雪，三军过后尽开颜。'
+          page='../Articles/Article1/Article'
         />
         <Article 
+          page='../Articles/Article2/Article'
           path='https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=a15086bc31adcbef01347900949449e0/aec379310a55b3199a363d0d43a98226cefc17fe.jpg'
           name='毛泽东'
           time='1934-1935'
@@ -39,6 +41,7 @@ export default class Famousarticles extends Component {
         <Article 
           path='https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=a15086bc31adcbef01347900949449e0/aec379310a55b3199a363d0d43a98226cefc17fe.jpg'
           name='毛泽东'
+          page='../Articles/Article3/Article'
           time='1935'
           title='忆秦娥·娄山关'
           content='西风烈，长空雁叫霜晨月。霜晨月，马蹄声碎，喇叭声咽。雄关漫道真如铁，而今迈步从头越。从头越，苍山如海，残阳如血。'
@@ -46,6 +49,7 @@ export default class Famousarticles extends Component {
         <Article 
           path='https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=a15086bc31adcbef01347900949449e0/aec379310a55b3199a363d0d43a98226cefc17fe.jpg'
           name='毛泽东'
+          page='../Articles/Article4/Article'
           time='1935年冬'
           title='念奴娇·昆仑'
           content='横空出世，莽昆仑，阅尽人间春色。飞起玉龙三百万，搅得周天寒彻。夏日消溶，江河横溢，人或为鱼鳖。千秋功罪，谁人曾与评说？而今我谓昆仑：不要这高，不要这多雪。安得倚天抽宝剑，把汝裁为三截？一截遗欧，一截赠美，一截还东国。太平世界，环球同此凉热。'
@@ -53,6 +57,7 @@ export default class Famousarticles extends Component {
         <Article 
           path='https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=a15086bc31adcbef01347900949449e0/aec379310a55b3199a363d0d43a98226cefc17fe.jpg'
           name='毛泽东'
+          page='../Articles/Article5/Article'
           time='1935'
           title='清平乐·六盘山'
           content='天高云淡，望断南飞雁。不到长城非好汉，屈指行程二万。六盘山上高峰，红旗漫卷西风。今日长缨在手，何时缚住苍龙？'
@@ -60,6 +65,7 @@ export default class Famousarticles extends Component {
         <Article 
           path='https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=a15086bc31adcbef01347900949449e0/aec379310a55b3199a363d0d43a98226cefc17fe.jpg'
           name='毛泽东'
+          page='../Articles/Article6/Article'
           time='1935.10.21'
           title='六言诗·给彭德怀同志'
           content='山高路远坑深，大军纵横驰奔。谁敢横刀立马？唯我彭大将军。 '
@@ -67,6 +73,7 @@ export default class Famousarticles extends Component {
         <Article 
           path='https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=a15086bc31adcbef01347900949449e0/aec379310a55b3199a363d0d43a98226cefc17fe.jpg'
           name='毛泽东'
+          page='../Articles/Article7/Article'
           time='1936'
           title='沁园春·雪'
           content='北国风光，千里冰封，万里雪飘。望长城内外，惟余莽莽；大河上下，顿失滔滔。山舞银蛇，原驰蜡象，欲与天公试比高。须晴日，看红装素裹，分外妖娆。江山如此多娇，引无数英雄竞折腰。惜秦皇汉武，略输文采；唐宗宋祖，稍逊风骚。一代天骄，成吉思汗，只识弯弓射大雕。俱往矣，数风流人物，还看今朝。'
@@ -74,6 +81,7 @@ export default class Famousarticles extends Component {
         <Article 
           path='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574332434064&di=3bb46c472ea4a913138ea541d7282503&imgtype=0&src=http%3A%2F%2Fimg.11665.com%2Fimg04_p%2Fi4%2FT1EdT6XmVgXXXM8XM9_102310.jpg'
           name='人教社小学语文室'
+          page='../Articles/Article8/Article'
           time=''
           title='吃水不忘挖井人'
           content='瑞金城外有个村子叫沙洲坝。毛主席在江西领导革命的时候，在那儿住过。
@@ -86,6 +94,7 @@ export default class Famousarticles extends Component {
           path='https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=c287d3353badcbef01347900949449e0/aec379310a55b319f9e1688449a98226cffc1722.jpg'
           name='王愿坚'
           time=''
+          page='../Articles/Article9/Article'
           title='草地夜行'
           content='茫茫的草海，一眼望不到边。大队人马已经过去了，留下一条踩得稀烂的路，一直伸向远方。　 
           干粮早就吃光了，皮带也煮着吃了。我空着肚子，拖着两条僵硬的腿，一步一挨地向前走着。背上的枪支和子弹就像一座山似的，压得我喘不过气来。唉！就是在这稀泥地上躺一会儿也好啊！ 
@@ -111,6 +120,7 @@ export default class Famousarticles extends Component {
           path='https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=9b811ab80bf431adbcd2443f730dcb92/f636afc379310a559a2f21deb04543a982261094.jpg'
           name='李本深'
           time=''
+          page='../Articles/Article10/Article'
           title='丰碑'
           content='红军队伍在冰天雪地里艰难地前进。严寒把云中山冻成了一个大冰坨。狂风呼啸，大雪纷飞，似乎要吞掉这支装备很差的队伍。
           　　将军早把他的马让给了重伤员。他率领战士们向前挺进，在冰雪中为后续部队开辟一条通道。等待着他们的是恶劣的环境和残酷的战斗，可能吃不上饭，可能睡雪窝，可能一天要走一百几十里路，可能遭到敌人的突然袭击。这支队伍能不能经受住这样严峻的考验呢？将军思索着。
@@ -130,6 +140,7 @@ export default class Famousarticles extends Component {
         <Article 
           path='https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=cc3e8932fffaaf5184e386b9b46ff3d3/86d6277f9e2f07082a1d0b14eb24b899a901f28d.jpg'
           name='杨旭'
+          page='../Articles/Article11/Article'
           time='1959.8'
           title='金色的鱼钩'
           content='1935年秋天，红四方面军进入草地，许多同志得了肠胃病。我和两个小同志病得实在跟不上队伍了，指导员派炊事班长照顾我们，让我们走在后面。
@@ -170,6 +181,7 @@ export default class Famousarticles extends Component {
         <Article 
           path='https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike92%2C5%2C5%2C92%2C30/sign=81ce3ce90446f21fdd395601974d0005/d058ccbf6c81800a4fdcfb1cbf3533fa828b47e2.jpg'
           name='王愿坚'
+          page='../Articles/Article12/Article'
           time='1958.6'
           title='七根火柴'
           content='天亮的时候，雨停了。
@@ -201,6 +213,7 @@ export default class Famousarticles extends Component {
           name='陈靖'
           time=''
           title='倔强的小红军'
+          page='../Articles/Article13/Article'
           content='陈赓同志回顾自己革命经历的时候，曾经深情地谈起这样一件往事。
           那是深秋的一天，太阳偏西了。由于长时间在荒无人烟的草地上行军，常常忍饥挨饿，陈赓同志感到砖瓦分疲惫。这一陈他掉队了，牵着那匹同样疲惫的瘦马，一步一步朝前走着。忽然，看见前边脸皮小红军，跟他一样，也掉队了。
           那小家伙不过十一二岁，黄黄的小脸，一双大眼睛，两片薄嘴唇，鼻子有点儿翘，两只脚穿着破草鞋，冻得又青又红。陈赓同志走到他跟前，说：“小鬼，你上马骑一会儿吧。”
@@ -218,46 +231,53 @@ export default class Famousarticles extends Component {
           陈赓同志一把搂住小红军，狠狠地打了自己一个嘴巴：“陈赓啊，你怎么对得起这个小兄弟啊！”'
         />
         <Article 
-          path=''
-          name=''
+          path='https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=673dd9efc5fc1e17fdbf8b3772ab913e/d4628535e5dde711b47b2d0fadefce1b9c166199.jpg'
+          name='陆定一'
           time=''
-          title=''
-          content=''
+          title='老山界'
+          page='../Articles/Article14/Article'
+          content='我们决定要爬一座30里高的瑶山，地图上叫越城岭，土名叫老山界。
+          下午才动身，沿着山沟向上走。前面不知道为什么走不动，等了好久，才走了几步又要停下来等。队伍挤得紧紧的，站累了，就在路旁坐下来，等前头喊着“走，走，走”，就站起来再走。满望可以多走一段，可是走不了几步，又要停下来。天色晚了，肚子饿了，许多人烦得叫起来，骂起来。我们偷了个空儿，跑到前面去。地势渐渐陡起来。我们已经超过自己的纵队，跑到“红星”纵队的尾巴上，恰好在转弯地方发现路旁有一间房子，我们就进去歇一下。
+          这是一家瑶民，住着母女二人；男人大概是因为听说过队伍，照着习惯，到什么地方去躲起来了。
+          “大嫂，借你这里歇歇脚儿。”
+          “请到里边坐。”她带着些惊惶的神情说。
+          队伍还是极迟缓地向前行动。我们就跟瑶民攀谈起来。照我们一路上的经验，不论是谁，不论他们开始怎样怕我们，只要我们对他们说清楚了红军是什么，没有不变忧为喜，同我们十分亲热起来的。今天对瑶民，我们也要试一试。
+          我们谈到红军，谈到苛捐杂税，谈到广西军阀禁止瑶民信仰自己的宗教，残杀瑶民，谈到她住在这里的生活情形。那女人哭起来了。
+          她说她原来也有过地，但是汉人把他们从自己的地上赶跑了。现在住到这荒山上来，种人家的地，每年要缴特别重的租。她说：“广西的苛捐杂税对瑶民特别重，广西军阀特别欺侮瑶民。你们红军早些来就好了，我们就不会吃这样的苦了。”
+          她问我们饿了没有。这一问正问中了我们的心事。她拿出仅有的一点米，放在房中间木头架成的一个灶上煮粥。她对我们道歉，说没有多的米，也没有大锅，要不就多煮些给部队吃。我们给她钱，她不要。好容易来了一个认识的同志，带来一袋米，够吃三天的粮食，虽然明知道前面粮食缺乏，我们还是把这整袋子米送给她。她非常欢喜地接受了。
+          部队今天非夜里行军不可，她的房子和篱笆都是枯竹编成的，我们生怕有人拆下来当火把点，就写了几条标语，用米汤贴在外面显眼的地方，告知我们的部队不准拆篱笆当火把。我们问了瑶民，知道前面还有竹林，可以砍来作火把，就派人到前面竹林去准备。
+          粥吃起来十分香甜，因为确是饿了。我们也拿碗盛给瑶民母女吃。打听前面的路程，知道前面有一个地方叫雷公岩，很陡，上山三十里，下山十五里，再前面才是塘坊边。我们现在还没到山脚下呢。
+          自己的队伍来了，我们烧了些水给大家喝。一路前进，天黑了才到山脚，果然有许多竹林。
+          满天都是星光，火把也亮起来了。从山脚向上望，只见火把排成许多“之”字形，一直连到天上，跟星光接起来，分不出是火把还是星星。这真是我生平没见过的奇观。
+          大家都知道这座山是怎样地陡了，不由浑身紧张，前后呼喊起来，都想努一把力，好快些翻过山去。
+          “不要掉队呀！”
+          “不要落后做乌龟呀！”
+          “我们顶着天啦！”
+          大家听了，哈哈地笑起来。
+          在“之”字拐的路上一步一步地上去。向上看，火把在头顶上一点点排到天空；向下看，简直是绝壁，火把照着人的脸，就在脚底下。
+          走了半天，忽然前面又走不动了。传来的话说，前面又有一段路在峭壁上，马爬不上去。又等了一个多小时，传下命令来说，就在这里睡，明天一早登山。
+          就在这里睡觉？怎么行呢？下去到竹林里睡是不可能的。但就在路上睡么？路只有一尺来宽，半夜里一个翻身不就骨碌下去了么？而且路上的石头又非常不平，睡一晚准会疼死人。
+          但这是没有办法的，只得裹一条毯子，横着心躺下去。因为实在太疲倦，一会儿就酣然入梦了。
+          半夜里，忽然醒来，才觉得寒气逼人，刺入肌骨，浑身打着颤。把毯子卷得更紧些,把身子蜷起来，还是睡不着。天上闪烁的星星好像黑色幕上缀着的宝石，它跟我们这样地接近哪！黑的山峰像巨人一样矗立在面前。四围的山把这山谷包围得像一口井。上边和下边有几堆火没有熄；冻醒了的同志们围着火堆小声地谈着话。除此以外，就是寂静。耳朵里有不可捉摸的声响，极远的又是极近的，极洪大的又是极细切的，像春蚕在咀嚼桑叶，像野马在平原上奔驰，像山泉在呜咽，像波涛在澎湃。不知什么时候又睡着了。
+          黎明的时候被人推醒，说是准备出发。山下有人送饭上来，不管三七二十一，抢了一碗就吃。
+          又传下命令来，要队伍今天无论如何爬过这座山。因为山路很难走，一路上需要督促前进。我们几个人又停下来，立刻写标语，分配人到山下山上各段去喊口号，演说，帮助病员和运输员。忙了一会，再向前进。
+          走了不多远，看见昨晚所说的峭壁上的路，也就是所谓雷公岩的，果然陡极了，几乎是九十度的垂直的石梯，只有一尺多宽；旁边就是悬崖，虽然不很深，但也够怕人的。崖下已经聚集了很多马匹，都是昨晚不能过去、要等今天全纵队过完了再过去的。有几匹曾经从崖上跌下来，脚骨都断了。
+          很小心地过了这个石梯。上面的路虽然还是陡，但并不陡得那么厉害了。一路走，一路检查标语。我渐渐地掉了队，顺便做些鼓励工作。
+          这很陡的山爬完了。我以为三十里的山就是那么一点；恰巧来了一个瑶民，同他谈谈，知道还差得远，还有二十多里很陡的山。
+          昨天的晚饭，今天的早饭，都没吃饱。肚子很饿，气力不够，但是必须鼓着勇气前进。一路上，看见以前送上去的标语用完了，就一路写着标语贴。累得走不动的时候，索性在地上躺一会儿。
+          快要到山顶，我已经落得很远了。许多运输员都走到前头去了，剩下来的是医务人员和掩护部队。医务人员真是辛苦，因为山陡，伤员病员都下了担架走，旁边需要有人搀扶着。医务人员中的女同志们英勇得很，她们还是处处在慰问和帮助伤员病员，一点也不知道疲倦。回头向来路望去，那些小山都成了“矮子”。机关枪声很密，大概是在我们昨天出发的地方，五、八军团正跟敌人开火。远远地还听见敌人飞机的叹息，大概是在叹息自己的命运：为什么不到抗日的战线上去显显身手呢?
+          到了山顶，已经是下午两点多钟。我忽然想起：将来要在这里立个纪念碑，写上某年某月某日，红军北上抗日，路过此处。我长长地吐了一口气，坐在山顶上休息一会。回头看队伍，没有翻过山的只有不多的几个人了。我们完成了任务，把一个坚强的意志灌输到整个纵队每个人心中，饥饿、疲劳甚至受伤的痛苦都被这个意志克服了。难翻的老山界被我们这样笨重的队伍战胜了。
+          下山十五里，也是很倾斜的。我们一口气儿跑下去，跑得真快。路上有几处景致很好，浓密的树林里，银子似的泉水流下山去，清得透底。在每条溪流的旁边，有很多战士们用脸盆、饭盒子、茶缸煮粥吃。我们虽然也很饿，但仍旧一气儿跑下山去，一直到宿营地。
+          这回翻山使部队开始养成一种新的习惯：那就是用脸盆、饭盒子、茶缸煮东西吃。这种习惯一直保持了很久。
+          老山界是我们长征中所过的第一座难走的山。但是我们走过了金沙江、大渡河、雪山、草地以后，才觉得老山界的困难，比起这些地方来，还是小得很。'
         />
         <Article 
-          path=''
-          name=''
+          path='https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=06e97ed534dbb6fd255be220311fcc25/c75c10385343fbf2e5226c0dbd7eca8065388f96.jpg'
+          name='雕塑家潘鹤'
           time=''
-          title=''
-          content=''
-        />
-        <Article 
-          path=''
-          name=''
-          time=''
-          title=''
-          content=''
-        />
-        <Article 
-          path=''
-          name=''
-          time=''
-          title=''
-          content=''
-        />
-        <Article 
-          path=''
-          name=''
-          time=''
-          title=''
-          content=''
-        />
-        <Article 
-          path=''
-          name=''
-          time=''
-          title=''
-          content=''
+          page='../Articles/Article15/Article'
+          title='艰苦岁月'
+          content='红军打退了敌人的又一次进攻，在山坡上休息。天色渐渐暗下来，周围非常寂静。山谷中响起了悠扬的笛声。吹笛子的是一位老红军。他坐在石头上，赤着脚，身上的衣服很破了，腰里挂着驳壳枪，帽子上的五角星红得十分鲜艳。他颧骨很高，额上的皱纹很深，浓浓的眉毛下面，一双眼睛特别有神。一位十来岁的小红军偎依在他的身旁，右手托着下巴，侧着耳朵倾听。小红军也赤着脚，衣服也很破，搂着一支跟他差不多高的步枪。这位老红军，很可能原来是个长工；小红军呢，也许原来是个放牛娃。这一老一小都来到了人民的军队，跟着共产党、毛主席闹革命。战斗的岁月非常艰苦，可是他们充满了胜利的信心，相信一定能够彻底打垮敌人，使穷苦人都翻身做主人，过上幸福的生活。小红军听着笛声，出神地望着远方。他看到了未来，看到了希望。'
         />
       </View>
     )

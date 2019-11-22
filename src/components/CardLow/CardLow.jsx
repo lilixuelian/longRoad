@@ -7,6 +7,7 @@ class CardLow extends Component {
     return (
       <View className='box'>
         <Image
+          className='image'
           src={this.props.path}
         />
         <View className='contentBox'>
