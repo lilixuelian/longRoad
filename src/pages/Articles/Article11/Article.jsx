@@ -1,6 +1,6 @@
 import Taro, { Component } from '@tarojs/taro'
 import { View} from '@tarojs/components'
-import './Article.scss'
+import '../Article.scss'
 import { AtCard } from "taro-ui"
 import place from '../../../pictures/iconphoto/place.png'
 import content from '../../../pictures/iconphoto/content.png'
@@ -23,12 +23,14 @@ export default class Article extends Component {
   render () {
     return (
       <View className='Article'>
+        <View>　</View>
         <AtCard
           title='标题'
           thumb={place}
         >
           <View className='title'>金色的鱼钩</View>
         </AtCard>
+        <View>　</View>
         <AtCard
           title='内容'
           thumb={content}
@@ -71,6 +73,7 @@ export default class Article extends Component {
             </View>
           </View>
         </AtCard>
+        <View>　</View>
       </View>
     )
   }

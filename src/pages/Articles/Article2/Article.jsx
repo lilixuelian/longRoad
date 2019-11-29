@@ -1,15 +1,9 @@
 import Taro, { Component } from '@tarojs/taro'
-import { View} from '@tarojs/components'
+import { View } from '@tarojs/components'
 import './Article.scss'
 import { AtCard } from "taro-ui"
 import place from '../../../pictures/iconphoto/place.png'
 import content from '../../../pictures/iconphoto/content.png'
-import One from '../../../components/Number/One/One'
-import Two from '../../../components/Number/Two/Two'
-import Three from '../../../components/Number/Three/Three'
-import Four from '../../../components/Number/Four/Four'
-import Five from '../../../components/Number/Five/Five'
-import Six from '../../../components/Number/Six/Six'
 
 export default class Article extends Component {
 
@@ -17,24 +11,26 @@ export default class Article extends Component {
     navigationBarTitleText: '其他'
   }
 
-  componentWillMount () { }
+  componentWillMount() { }
 
-  componentDidMount () { }
+  componentDidMount() { }
 
-  componentWillUnmount () { }
+  componentWillUnmount() { }
 
-  componentDidShow () { }
+  componentDidShow() { }
 
-  componentDidHide () { }
-  render () {
+  componentDidHide() { }
+  render() {
     return (
       <View className='Article'>
+        <View>　</View>
         <AtCard
           title='标题'
           thumb={place}
         >
           <View className='title'>十六字令三首</View>
         </AtCard>
+        <View>　</View>
         <AtCard
           title='【其一】'
           thumb={content}
@@ -44,6 +40,7 @@ export default class Article extends Component {
             <View>惊回首，离天三尺三。</View>
           </View>
         </AtCard>
+        <View>　</View>
         <AtCard
           title='【其二】'
           thumb={content}
@@ -53,6 +50,7 @@ export default class Article extends Component {
             <View>奔腾急，万马战犹酣。</View>
           </View>
         </AtCard>
+        <View>　</View>
         <AtCard
           title='【其三】'
           thumb={content}
@@ -62,6 +60,7 @@ export default class Article extends Component {
             <View>天欲堕，赖以拄其间。</View>
           </View>
         </AtCard>
+        <View>　</View>
       </View>
     )
   }
