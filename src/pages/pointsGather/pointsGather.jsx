@@ -56,27 +56,27 @@ export default class Pointsgather extends Component {
         <AtGrid data={
           [
             {
-              image: 'https://img12.360buyimg.com/jdphoto/s72x72_jfs/t6160/14/2008729947/2754/7d512a86/595c3aeeNa89ddf71.png',
+              image: 'https://i.ibb.co/9Hpr840/person.png',
               value: '人物大事记'
             },
             {
-              image: 'https://img12.360buyimg.com/jdphoto/s72x72_jfs/t6160/14/2008729947/2754/7d512a86/595c3aeeNa89ddf71.png',
+              image: 'https://i.ibb.co/vVXvLF3/files.png',
               value: '著名文章'
             },
             {
-              image: 'https://img20.360buyimg.com/jdphoto/s72x72_jfs/t15151/308/1012305375/2300/536ee6ef/5a411466N040a074b.png',
+              image: 'https://i.ibb.co/3zMW2s6/lishiziliao.png',
               value: '珍贵历史资料'
             },
             {
-              image: 'https://img10.360buyimg.com/jdphoto/s72x72_jfs/t5872/209/5240187906/2872/8fa98cd/595c3b2aN4155b931.png',
+              image: 'https://i.ibb.co/NsW24nV/Video-Camera-I.png',
               value: '推荐影视作品'
             },
             {
-              image: 'https://img14.360buyimg.com/jdphoto/s72x72_jfs/t17251/336/1311038817/3177/72595a07/5ac44618Na1db7b09.png',
+              image: 'https://i.ibb.co/dKjTwCd/forest.png',
               value: '推荐景点'
             },
             {
-              image: 'https://img30.360buyimg.com/jdphoto/s72x72_jfs/t5770/97/5184449507/2423/294d5f95/595c3b4dNbc6bc95d.png',
+              image: 'https://i.ibb.co/h7FxJP1/Reports.png',
               value: '长征路难'
             }
           ]
