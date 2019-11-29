@@ -1,6 +1,6 @@
 import Taro, { Component } from '@tarojs/taro'
-import { View, Text } from '@tarojs/components'
 import { AtList, AtListItem, } from 'taro-ui'
+import { View } from '@tarojs/components'
 import './index.scss'
 
 export default class Index extends Component {
@@ -95,6 +95,7 @@ export default class Index extends Component {
   render() {
     return (
       <view className='index'>
+        <View> 　　</View>
         <AtList>
           <AtListItem
             title='突破四道封锁线'
@@ -246,6 +247,7 @@ export default class Index extends Component {
             arrow='right' onClick={this.turnto.bind(this, '../Desc/Desc12/Desc12', 12)}
           />
         </AtList>
+        <View> 　　</View>
       </view>
     )
   }
