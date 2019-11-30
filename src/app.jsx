@@ -61,6 +61,11 @@ class App extends Component {
       'pages/peopleInformation/HeZiZhen/HeZiZhen',
       'pages/peopleInformation/YeJianYing/YeJianYing',
       'pages/peopleInformation/WangJiaXiang/WangJiaXiang',
+      'pages/digitalizeChangzheng/digitalizeChangzheng',
+      'pages/ChangzhengStory/ChangzhengStory',
+      'pages/questionBank/questionBank',
+      'pages/questionStart/questionStart',
+      'pages/daKaChangzheng/daKaChangzheng',
     ],
     window: {
       backgroundTextStyle: 'light',

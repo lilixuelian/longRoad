@@ -1,0 +1,54 @@
+page {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1575113699853&di=c3f73cd71cb0a15643134eaa7170bc1c&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2F6387563904514ace8fb28203355c201d69717c971bffba-qPKmHe_fw658');
+  }
+.main{
+    width:85vw;
+    height:70vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background:rgba(255,255,255,0.8);
+    // background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1575098155830&di=3a9a0352efc4f7900b364988137971c3&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Fsinacn07%2F318%2Fw959h959%2F20180822%2Fcf88-hhzsnea6519879.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentmain{
+    width:75vw;
+    height:auto;
+    // background:white;
+    margin:10vw;
+}
+
+.at-article__p{
+    color:red;
+    font-size:5vw;
+    word-break: break-all;
+}
+
+.buttonbox{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:75vw;
+    height:40vh;
+    margin:3vw;
+}
+
+button{
+    width:75vw;
+    height:10vw;
+    font-size:4vw;
+    background:rgba(250,155,25,0.7);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

@@ -46,9 +46,30 @@ export default class Pointsgather extends Component {
     }
     else if(index == 5){
       Taro.navigateTo({
+        url: '../digitalizeChangzheng/digitalizeChangzheng'
+      })
+    }
+    else if(index == 6){
+      Taro.navigateTo({
+        url: '../ChangzhengStory/ChangzhengStory'
+      })
+    }
+    else if(index == 7){
+      Taro.navigateTo({
+        url: '../questionBank/questionBank'
+      })
+    }
+    else if(index == 8){
+      Taro.navigateTo({
+        url: '../daKaChangzheng/daKaChangzheng'
+      })
+    }
+    else if(index == 9){
+      Taro.navigateTo({
         url: '../difficulties/difficulties'
       })
     }
+    
   }
   render () {
     return (
@@ -76,9 +97,25 @@ export default class Pointsgather extends Component {
               value: '推荐景点'
             },
             {
+              image: 'https://i.ibb.co/CWNpccV/Numbered-list.png',
+              value: '数字长征'
+            },
+            {
+              image: 'https://i.ibb.co/2FvBbY1/Story.png',
+              value: '长征小故事'
+            },
+            {
+              image: 'https://i.ibb.co/4tjschd/test.png',
+              value: '题库答题'
+            },
+            {
+              image: 'https://i.ibb.co/LYsrB0z/qiandao.png',
+              value: '打卡长征路'
+            },
+            {
               image: 'https://i.ibb.co/h7FxJP1/Reports.png',
               value: '长征路难'
-            }
+            },
           ]
         }
           onClick={this.onClick}
