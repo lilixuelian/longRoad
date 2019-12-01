@@ -55,6 +55,13 @@
 					"pathName": "pages/questionStart/questionStart",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "景点",
+					"pathName": "pages/scenicSpots/scenicSpots",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

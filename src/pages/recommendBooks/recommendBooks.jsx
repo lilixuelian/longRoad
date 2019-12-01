@@ -273,11 +273,11 @@ export default class Recommendbooks extends Component {
                 title=''
                 content='过草地'
               />
-              <CardLow
+              {/* <CardLow
                 path='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574425497842&di=481115f85b470dbee8b0eb1ac7371d29&imgtype=0&src=http%3A%2F%2Fwww.zhybb.com%2Fimages%2Fstm220%2FCUCN%2FB2014%2FCUCN-B2014S-04.jpg'
                 title=''
                 content='会宁会师'
-              />
+              /> */}
               <CardLow
                 path='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574425537589&di=7a0abfa545f5c0cfa1d9f3c9b4217bae&imgtype=0&src=http%3A%2F%2Fztd00.photos.bdimg.com%2Fztd%2Fw%3D700%3Bq%3D50%2Fsign%3D4628a612d900baa1ba2c45bb772bc82f%2F08f790529822720ed5e6890473cb0a46f21fab20.jpg'
                 title=''

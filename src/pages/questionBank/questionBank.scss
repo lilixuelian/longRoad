@@ -1,5 +1,12 @@
-page {
-  background-size: 100% auto;
+.questionBank{
+  width:100vw;
+  height:100vh;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1575045320791&di=81f9afa8cfa6c97607c65066bff402cd&imgtype=0&src=http%3A%2F%2Fr2.ykimg.com%2F050E0000521DB6746758392C3B05D99D');
+}
+
+button{
+  background-color:#f56d5a; 
+  color:white; 
+  width:50vw;
 }
