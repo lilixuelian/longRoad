@@ -46,12 +46,12 @@ export default class Pointsgather extends Component {
     }
     else if(index == 5){
       Taro.navigateTo({
-        url: '../digitalizeChangzheng/digitalizeChangzheng'
+        url: '../digitalizeChangzheng/index'
       })
     }
     else if(index == 6){
       Taro.navigateTo({
-        url: '../ChangzhengStory/ChangzhengStory'
+        url: '../ChangzhengStory/index'
       })
     }
     else if(index == 7){

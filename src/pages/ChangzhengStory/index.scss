@@ -1,0 +1,107 @@
+/**index.wxss**/
+@import "../../common.scss";
+
+page {
+  overflow: hidden;
+}
+
+.card_wrap {
+  background: #f2f2f6;
+  position: relative;
+  width: 100%;
+  height: 100%
+}
+
+.card_wrap .card_item {
+  position: absolute;
+  width: 80%;
+}
+
+.card_wrap .card_item .buy_btn {
+  position: absolute;
+  bottom: 86px;
+  left: 50%;
+  margin-left: -130px;
+}
+
+.card_wrap .card_item span.change_icon image {
+  position: absolute;
+  width: 70px;
+  height: 22px;
+  top: 28px;
+  left: 50%;
+  margin-left: -34px;
+  box-shadow: none;
+
+}
+
+.card_wrap .card_item .card_info {
+  position: absolute;
+  height: 188px;
+  width: 80%;
+}
+
+.card_wrap .card_item .card_info .card_info_mes_title {
+  font-size: 36px;
+  line-height: 48px;
+  margin-left: 56px;
+  position: absolute;
+  top: -24px;
+}
+
+.card_wrap .card_item .card_info .card_info_mes_item {
+  margin-left: 56px;
+  display: block;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+
+.card_wrap .card_item.card1 {
+  /*top: 62px;
+  left: 25px;*/
+  transform: translateY(124px) translateX(50px);
+  z-index: 3
+}
+
+.card_wrap .card_item.card1 .card_info {
+  top: 279rpx;
+  left: 55rpx;
+  height: 590rpx;
+  background-color: rgba(245, 245, 245, 0.8);
+  font-size: 25rpx;
+}
+
+.card_wrap .card_item.card2 {
+  /*top: 44px;
+  left: 41px;*/
+  z-index: 2;
+  transform: translateY(88px) translateX(82px);
+}
+
+.card_wrap .card_item.card2 .card_info {
+  top: 390px;
+  left: 28px;
+  border-color: #fff;
+}
+
+.card_wrap .card_item.card3 {
+  /*top: 28px;
+  left: 51px;*/
+  transform: translateY(56px) translateX(102px);
+  z-index: 1;
+}
+
+.card_wrap .card_item.card3 .card_info {
+  top: 146px;
+  left: 100px;
+  border-color: #fff;
+}
+
+.card_wrap .card_item image {
+  display: block;
+  width: 100%;
+  height: 1000px;
+  border-radius: 12px;
+  box-shadow: 12px 46px 100px 20px #ccc;
+}
