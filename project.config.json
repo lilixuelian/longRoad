@@ -62,6 +62,19 @@
 					"pathName": "pages/scenicSpots/scenicSpots",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "数字长征",
+					"pathName": "pages/digitalizeChangzheng/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "长征小故事",
+					"pathName": "pages/ChangzhengStory/index",
+					"scene": null
 				}
 			]
 		}

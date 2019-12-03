@@ -7,7 +7,9 @@ View{
 }
 .container{
   position: relative;
-  background-color: #000;
+  background-image: url('http://img.yipic.cn/thumb/e9c9ce0b/27606551/4a5dac64/53bb1d2f/big_e9c9ce0b276065514a5dac6453bb1d2f.png');
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
 }
 .content{
   position: relative;
@@ -18,7 +20,7 @@ View{
   position: absolute;
   /*background-color:#000;*/
   width:280px;
-  height:516px;
+  height: 5500px;
   color:  white;
   transform-origin: center top;
   transform: rotateX(60deg);
@@ -26,23 +28,25 @@ View{
   margin-left:-80px;
   /*border:1px solid #fff;*/
   text-align: center;
-  font-size:15px;
+  font-size:20px;
   overflow: hidden;
 }
 .content-move{
+  background-color: red;
+  margin:10px;
   top:100%;
   /*top:0%;*/
   position: absolute;
-  -webkit-animation:wordMove 50s both;
-  -o-animation:wordMove 50s both;
-  animation:wordMove 50s both;
+  -webkit-animation:wordMove 300s both;
+  -o-animation:wordMove 300s both;
+  animation:wordMove 300s both;
 }
 @keyframes wordMove {
   0%{
-    top:100%;
+    top:10%;
   }
   100%{
-    top:-100%;
+    top:-150%;
   }
 }
 @-webkit-keyframes wordMove {

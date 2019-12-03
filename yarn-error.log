@@ -1,20 +1,20 @@
 Arguments: 
-  D:\Program Files\nodejs\node.exe D:\Program Files\bin\yarn.js add taro-ui --silent --no-progress
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_global\node_modules\yarn\bin\yarn.js add @tarojs/with-weapp --silent --no-progress
 
 PATH: 
-  C:\Users\hp\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\hp\Desktop\changzheng\node_modules\.bin;C:\Users\hp\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\hp\Desktop\changzheng\node_modules\.bin;C:\Users\hp\bin;D:\Program Files (x86)\Git\mingw32\bin;D:\Program Files (x86)\Git\usr\local\bin;D:\Program Files (x86)\Git\usr\bin;D:\Program Files (x86)\Git\usr\bin;D:\Program Files (x86)\Git\mingw32\bin;D:\Program Files (x86)\Git\usr\bin;C:\Users\hp\bin;C:\Program Files (x86)\Python37-32\Scripts;C:\Program Files (x86)\Python37-32;D:\Program Files\nodejs;C:\Users\hp\node_modules;C:\Users\hp\Miniconda3\Scripts;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;D:\Program Files\nodejs;D:\Program Files\@tarojs;D:\Program Files\bin;C:\Windows\System32;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;D:\Users\hp\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\hp\node_nodules;C:\Users\hp\AppData\Roaming\npm;D:\Program Files\@tarojs;C:\Users\hp\AppData\Local\Yarn\bin;D:\Program Files (x86)\Git\usr\bin\vendor_perl;D:\Program Files (x86)\Git\usr\bin\core_perl
+  C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;D:\GitHub\longRoad\node_modules\.bin;C:\Users\ADMINI~1\AppData\Local\Temp\yarn--1575352415486-0.09890253391626058;D:\GitHub\longRoad\node_modules\.bin;C:\Users\Administrator\AppData\Local\Yarn\Data\link\node_modules\.bin;C:\Users\Administrator\AppData\Local\Yarn\bin;C:\Program Files\libexec\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Java\jdk1.8.0_221\bin;C:\Program Files (x86)\Java\jdk1.8.0_221\jre\bin;C:\Program Files (x86)\Java\jdk-12.0.2\bin;C:\Program Files (x86)\Java\jdk-12.0.2\bin\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\;"C:\Users\Administrator\Documents\IdeaProjects\EtCampusService\sbt-dist\bin\bin;";C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files\IDEA\bin;C:\Program Files\Bandizip\;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft Visual Studio\Microsoft VS Code\bin;D:\IDEA\bin;;C:\Program Files\nodejs\node_global;
 
 Yarn version: 
-  1.17.3
+  1.19.1
 
 Node version: 
-  12.11.0
+  12.13.0
 
 Platform: 
   win32 x64
 
 Trace: 
-  Error: EPERM: operation not permitted, unlink 'C:\Users\hp\Desktop\changzheng\node_modules\node-sass\vendor\win32-x64-72\binding.node'
+  Error: EPERM: operation not permitted, unlink 'D:\GitHub\longRoad\node_modules\copy-concurrently\node_modules\.bin'
 
 npm manifest: 
   {
@@ -58,32 +58,33 @@ npm manifest:
       "@tarojs/taro-swan": "1.3.19",
       "@tarojs/taro-tt": "1.3.19",
       "@tarojs/taro-weapp": "1.3.19",
+      "nerv-devtools": "^1.4.0",
       "nervjs": "^1.4.0",
-      "nerv-devtools": "^1.4.0"
+      "taro-ui": "^2.2.4"
     },
     "devDependencies": {
-      "@types/react": "^16.4.6",
-      "@types/webpack-env": "^1.13.6",
       "@tarojs/plugin-babel": "1.3.19",
       "@tarojs/plugin-csso": "1.3.19",
       "@tarojs/plugin-sass": "1.3.19",
       "@tarojs/plugin-uglifyjs": "1.3.19",
       "@tarojs/webpack-runner": "1.3.19",
+      "@types/react": "^16.4.6",
+      "@types/webpack-env": "^1.13.6",
+      "babel-eslint": "^8.2.3",
       "babel-plugin-transform-class-properties": "^6.24.1",
       "babel-plugin-transform-decorators-legacy": "^1.3.4",
       "babel-plugin-transform-jsx-stylesheet": "^0.6.5",
       "babel-plugin-transform-object-rest-spread": "^6.26.0",
       "babel-preset-env": "^1.6.1",
-      "babel-eslint": "^8.2.3",
       "eslint": "^5.16.0",
       "eslint-config-taro": "1.3.19",
+      "eslint-plugin-import": "^2.12.0",
       "eslint-plugin-react": "^7.8.2",
       "eslint-plugin-react-hooks": "^1.6.1",
-      "eslint-plugin-import": "^2.12.0",
+      "eslint-plugin-taro": "1.3.19",
       "stylelint": "9.3.0",
       "stylelint-config-taro-rn": "1.3.19",
-      "stylelint-taro-rn": "1.3.19",
-      "eslint-plugin-taro": "1.3.19"
+      "stylelint-taro-rn": "1.3.19"
     }
   }
 
@@ -429,6 +430,14 @@ Lockfile:
     version "16.9.9"
     resolved "https://registry.npm.taobao.org/@types/react/download/@types/react-16.9.9.tgz#a62c6f40f04bc7681be5e20975503a64fe783c3a"
     integrity sha1-pixvQPBLx2gb5eIJdVA6ZP54PDo=
+    dependencies:
+      "@types/prop-types" "*"
+      csstype "^2.2.0"
+  
+  "@types/react@^16.7.3":
+    version "16.9.11"
+    resolved "https://registry.npm.taobao.org/@types/react/download/@types/react-16.9.11.tgz?cache=0&sync_timestamp=1572464320120&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Freact%2Fdownload%2F%40types%2Freact-16.9.11.tgz#70e0b7ad79058a7842f25ccf2999807076ada120"
+    integrity sha1-cOC3rXkFinhC8lzPKZmAcHatoSA=
     dependencies:
       "@types/prop-types" "*"
       csstype "^2.2.0"
@@ -1639,6 +1648,11 @@ Lockfile:
     resolved "https://registry.npm.taobao.org/binary-extensions/download/binary-extensions-1.13.1.tgz#598afe54755b2868a5330d2aff9d4ebb53209b65"
     integrity sha1-WYr+VHVbKGilMw0q/51Ou1Mgm2U=
   
+  bind-decorator@^1.0.11:
+    version "1.0.11"
+    resolved "https://registry.npm.taobao.org/bind-decorator/download/bind-decorator-1.0.11.tgz#e41bc06a1f65dd9cec476c91c5daf3978488252f"
+    integrity sha1-5BvAah9l3ZzsR2yRxdrzl4SIJS8=
+  
   block-stream@*:
     version "0.0.9"
     resolved "https://registry.npm.taobao.org/block-stream/download/block-stream-0.0.9.tgz#13ebfe778a03205cfe03751481ebb4b3300c126a"
@@ -2101,7 +2115,7 @@ Lockfile:
       isobject "^3.0.0"
       static-extend "^0.1.1"
   
-  classnames@^2.2.5:
+  classnames@^2.2.5, classnames@^2.2.6:
     version "2.2.6"
     resolved "https://registry.npm.taobao.org/classnames/download/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
     integrity sha1-Q5Nb/90pHzJtrQogUwmzjQD2UM4=
@@ -2600,6 +2614,11 @@ Lockfile:
     version "0.1.4"
     resolved "https://registry.npm.taobao.org/date-now/download/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
     integrity sha1-6vQ5/U1ISK105cx9vvIAZyueNFs=
+  
+  dayjs@^1.7.7:
+    version "1.8.17"
+    resolved "https://registry.npm.taobao.org/dayjs/download/dayjs-1.8.17.tgz?cache=0&sync_timestamp=1573022437476&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdayjs%2Fdownload%2Fdayjs-1.8.17.tgz#53ec413f2a7b02afbea1846d61bb260fa8567cea"
+    integrity sha1-U+xBPyp7Aq++oYRtYbsmD6hWfOo=
   
   debug@*, debug@^4.0.1, debug@^4.1.0:
     version "4.1.1"
@@ -6683,7 +6702,7 @@ Lockfile:
     dependencies:
       asap "~2.0.6"
   
-  prop-types@^15.6.1, prop-types@^15.7.2:
+  prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
     version "15.7.2"
     resolved "https://registry.npm.taobao.org/prop-types/download/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
     integrity sha1-UsQedbjIfnK52TYOAga5ncv/psU=
@@ -8150,6 +8169,18 @@ Lockfile:
       mkdirp "^0.5.0"
       safe-buffer "^5.1.2"
       yallist "^3.0.3"
+  
+  taro-ui@^2.2.4:
+    version "2.2.4"
+    resolved "https://registry.npm.taobao.org/taro-ui/download/taro-ui-2.2.4.tgz#96a486432e86d6d0d1eda70383c47c3284f5e8e6"
+    integrity sha1-lqSGQy6G1tDR7acDg8R8MoT16OY=
+    dependencies:
+      "@types/react" "^16.7.3"
+      bind-decorator "^1.0.11"
+      classnames "^2.2.6"
+      dayjs "^1.7.7"
+      lodash "^4.17.10"
+      prop-types "^15.6.2"
   
   terser-webpack-plugin@^1.1.0:
     version "1.4.1"

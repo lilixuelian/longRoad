@@ -9,8 +9,6 @@ import four from '../../../pictures/iconphoto/b4.png';
 import five from '../../../pictures/iconphoto/b5.png';
 import six from '../../../pictures/iconphoto/b6.png';
 import seven from '../../../pictures/iconphoto/b7.png';
-import eight from '../../../pictures/iconphoto/b8.png';
-import nine from '../../../pictures/iconphoto/b9.png';
 
 
 class Num extends Component {
@@ -41,12 +39,6 @@ class Num extends Component {
         break;
       case 7:
         this.setState({urladress:seven});
-        break;
-      case 8:
-        this.setState({urladress:eight});
-        break;
-      case 9:
-        this.setState({urladress:nine});
         break;
     }
     return (

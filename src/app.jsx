@@ -67,7 +67,6 @@ class App extends Component {
       'pages/digitalizeChangzheng/index',
       'pages/questionBank/questionBank',
       'pages/questionStart/questionStart',
-      'pages/daKaChangzheng/daKaChangzheng',
     ],
     window: {
       backgroundTextStyle: 'light',
