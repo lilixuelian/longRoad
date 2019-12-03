@@ -1,6 +1,7 @@
 .people{
     display: inline-block;
-    margin: 0 10px;
+    margin: 10px 10px;
+    position: relative;
 }
 Image{
     width: 230px;
@@ -11,6 +12,10 @@ Image{
 .name{
     width: 230px;
     text-align: center;
-    height: 100px;
     line-height: 50px;
+    font-size: 36px;
+    bottom: 20px;
+    color: white;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
 }
