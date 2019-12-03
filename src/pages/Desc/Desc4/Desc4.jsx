@@ -12,11 +12,6 @@ import One from '../../../components/Number/One/One'
 import Two from '../../../components/Number/Two/Two'
 import Three from '../../../components/Number/Three/Three'
 import Four from '../../../components/Number/Four/Four'
-//import Five from '../../../components/Number/Five/Five'
-//import Six from '../../../components/Number/Six/Six'
-// import Seven from '../../../components/Number/Seven/Seven'
-// import Eight from '../../../components/Number/Eight/Eight'
-// import Nine from '../../../components/Number/Nine/Nine'
 import Num from '../../../components/Number/Num/Num'
 
 export default class Desc4 extends Component {

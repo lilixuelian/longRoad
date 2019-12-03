@@ -21,7 +21,7 @@ var app = Taro.getApp()
         }
       },
       {
-        cardUrl: 'http://m.qpic.cn/psb?/V11eVEA03x8oJX/0sK*lvAK1mKDC7cD5RcUJKLASvL4U8Z.5DePO0nqkc0!/b/dFMBAAAAAAAA&bo=JgG4AQAAAAARF74!&rf=viewer_4',
+        cardUrl: 'http://ku.90sjimg.com/back_pic/05/01/99/82594f7aaada206.jpg%21/fwfh/804x1055/quality/90/unsharp/true/compress/true/watermark/text/OTDorr7orqE=/font/simkai/align/southeast/opacity/20/size/50',
         cardInfo: {
           cardTitle: '',
           cardInfoMes: [
@@ -47,7 +47,7 @@ var app = Taro.getApp()
   slidethis: function(e) {
     console.log(e)
     var animation = Taro.createAnimation({
-      duration: 300,
+      duration: 400,
       timingFunction: 'cubic-bezier(.8,.2,.1,0.8)'
     })
     var self = this
@@ -73,7 +73,7 @@ var app = Taro.getApp()
         cardInfoList: self.data.cardInfoList,
         animationData: {}
       })
-    }, 350)
+    }, 450)
   },
   buythis: function(e) {
     console.log(e)
@@ -96,7 +96,9 @@ var app = Taro.getApp()
 })
 
 class _C extends Taro.Component {
-  config = {}
+  config = {
+    navigationBarTitleText: '长征小故事'
+  }
 
   render() {
     const { animationData, cardInfoList } = this.data

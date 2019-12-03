@@ -65,9 +65,15 @@
 				},
 				{
 					"id": -1,
-					"name": "pages/importantPeople/importantPeople",
-					"pathName": "pages/importantPeople/importantPeople",
+					"name": "数字长征",
+					"pathName": "pages/digitalizeChangzheng/index",
 					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "长征小故事",
+					"pathName": "pages/ChangzhengStory/index",
 					"scene": null
 				}
 			]

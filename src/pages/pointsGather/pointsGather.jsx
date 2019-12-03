@@ -61,15 +61,9 @@ export default class Pointsgather extends Component {
     }
     else if(index == 8){
       Taro.navigateTo({
-        url: '../daKaChangzheng/daKaChangzheng'
-      })
-    }
-    else if(index == 9){
-      Taro.navigateTo({
         url: '../difficulties/difficulties'
       })
     }
-    
   }
   render () {
     return (
@@ -107,10 +101,6 @@ export default class Pointsgather extends Component {
             {
               image: 'https://i.ibb.co/4tjschd/test.png',
               value: '题库答题'
-            },
-            {
-              image: 'https://i.ibb.co/LYsrB0z/qiandao.png',
-              value: '打卡长征路'
             },
             {
               image: 'https://i.ibb.co/h7FxJP1/Reports.png',
