@@ -12,7 +12,7 @@ import './index.scss'
 class _C extends Taro.Component {
 
   config = {
-    navigationBarTitleText: '数字长征'
+    navigationBarTitleText: '数字长征路'
   }
 
   render() {
