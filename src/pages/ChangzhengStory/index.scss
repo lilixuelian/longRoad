@@ -32,6 +32,14 @@ page {
   left: 50%;
   margin-left: -34px;
   box-shadow: none;
+}
+
+.title{
+  font-size: 41rpx;
+  font-weight: 500;
+  margin-top: -59rpx;
+  margin-left: -2rpx;
+  position: fixed;
 
 }
 
@@ -82,7 +90,9 @@ page {
 .card_wrap .card_item.card2 .card_info {
   top: 390px;
   left: 28px;
-  border-color: #fff;
+  height: 590rpx;
+  background-color: rgba(245, 245, 245, 0.8);
+  font-size: 25rpx;
 }
 
 .card_wrap .card_item.card3 {

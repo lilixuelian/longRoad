@@ -102,7 +102,7 @@ export default class Recommendbooks extends Component {
                 poster='http://p2.music.126.net/I2ajFAF4Zh93NyEwBHVCRg==/1426066593653442.jpg?param=130y130'
                 name='八月桂花遍地开'
                 author='徐贵祥'
-                src='http://vd2.bdstatic.com/mda-ii9c3srppu6sjjt5/sc/mda-ii9c3srppu6sjjt5.mp4'
+                src='http://m801.music.126.net/20191204213928/19aebfe67c1361dc0554ed86ae80d781/jdyyaac/015c/0258/0509/66f201dd7452fdf78e312ca011c342bf.m4a'
                 title='《八月桂花遍地开》'
                 content='曲调优美、歌词生动，这首歌很快就在豫东南革命根据地传开了。后来，伴随着红军的足迹传遍了大江南北。它是以大别山民歌《八段锦》为曲调、依曲填词而成的。'
               />
@@ -110,7 +110,7 @@ export default class Recommendbooks extends Component {
                 poster='http://p1.music.126.net/PmpjIEsnzmR8jx7C-QTb1A==/109951163497823236.jpg?param=130y130'
                 name='十送红军'
                 author='朱正本、张士燮收集整理'
-                src='http://m701.music.126.net/20191122193825/9e72b3d9c18e130fa3715a98c5d78b6d/jdyyaac/0308/515f/515a/4b40ff3d5bf56888080cf01d7080edfd.m4a'
+                src='http://m801.music.126.net/20191204214306/4f279f96969835d86dc4b20072d9975d/jdyyaac/0f58/5609/075d/821617c94facd6fe3414070e50ae2e4c.m4a'
                 title='《十送红军》'
                 content='当年，在中国共产党和红四方面军的领导下进行了艰苦卓绝的斗争，留下了可歌可泣，光照日月的事迹。这些，必然要反映到劳动人民口头文学的创作里。'
               />

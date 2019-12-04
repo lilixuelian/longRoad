@@ -63,7 +63,6 @@ class App extends Component {
       'pages/peopleInformation/WangJiaXiang/WangJiaXiang',
       'pages/ChangzhengStory/index', 
       'pages/logs/logs', 
-      'pages/detail/detail',
       'pages/digitalizeChangzheng/index',
       'pages/questionBank/questionBank',
       'pages/questionStart/questionStart',
